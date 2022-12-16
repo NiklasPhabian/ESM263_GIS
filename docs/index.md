@@ -68,7 +68,7 @@ More about QGIS at:
 
 # Online resources
 
-- [home page](https://jamesfrew.github.io/ESM_263_GIS/): You're looking at it.
+- [home page](https://niklasphabian.github.io/ESM263_GIS/): You're looking at it.
 
 - [Slack workspace](https://esm263-w23.slack.com/): 
   - for (almost) everyting we would've used email for:
