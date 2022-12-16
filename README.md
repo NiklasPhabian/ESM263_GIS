@@ -94,5 +94,11 @@ Click <b>&rarr;<a href="https://purl.org/ucsb-bren/ESM263/assignment/N/HWN.html"
 
 
 ## Run/build
-
-    bundle exec jekyll serve
+```bash
+sudo apt-get install ruby-full build-essential
+bundle init
+bundle add webrick
+bundle add jekyll
+bundle install
+bundle exec jekyll serve 
+```
