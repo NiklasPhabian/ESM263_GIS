@@ -1,0 +1,29 @@
+## Week 2 - Coordinate systems and map projections
+
+- **Lecture**
+    - slides: [Coordinate Systems and Map Projections](ESM-263-2022-02-Coordinate_Systems_and_Map_Projections.pdf)
+    - sample data: [projections](projections.zip)
+- **Reading**
+    - Bolstad: ch 3: Geodesy, Datums, Projections, and Coordinate Systems
+    - A Gentle Introduction to GIS: [ch 8: Coordinate Reference Systems](https://docs.qgis.org/3.22/en/docs/gentle_gis_introduction/coordinate_reference_systems.html)
+- **Videos**
+    - [Are you saying the map is wrong?](https://youtu.be/eLqC3FNNOaI) (from "The West Wing", season 2, episode 16)
+    - [Why all world maps are wrong](https://youtu.be/kIID5FDi2JQ) (from Vox's Johnny Harris)
+- **Reference**
+    - [An Album of Map Projections](An_Album_of_Map_Projections.pdf)
+    - [California Dept. of Fish and Wildlife (CDFW) Projection and Datum Guidelines](CDFW_Projection_and_Datum_Guidelines.pdf)
+    - QGIS User Guide
+      - [10. Working with Projections](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_projections/working_with_projections.html)
+      - [15.1.3. Symbology Properties](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_vector/vector_properties.html?highlight=classification#symbology-properties)
+      - [19. Laying out the maps](https://docs.qgis.org/3.22/en/docs/user_manual/print_composer/index.html)
+- **Lab**
+    - [QGIS training data](https://ucsb.box.com/s/rg48f63exby4sqvt2g5twl4pcsy4v18d)
+    - QGIS Training Manual:
+      - [3. Module: Classifying Vector Data](https://docs.qgis.org/3.22/en/docs/training_manual/vector_classification/index.html)
+        - Skip 3.2.4&ndash;3.2.8 and 3.3.3&ndash;3.3.5
+      - [4. Module: Laying out the Maps](https://docs.qgis.org/3.22/en/docs/training_manual/map_composer/index.html)
+      - [6.1: Reprojecting and Transforming Data](https://docs.qgis.org/3.22/en/docs/training_manual/vector_analysis/reproject_transform.html)
+- **Recordings**
+    - [2022-01-10 lecture](https://ucsb.box.com/s/yh0m4blwy8awa0h30ozgsphhtjdyyfrh)
+    - [2022-01-11 lab](https://ucsb.box.com/s/c19ohu32brbd8ux0q4ntfjm2um4eozof)
+    - [2022-01-12 lab](https://ucsb.box.com/s/ffdunztr1hn3gpp79pm6rqbkpkoov296)

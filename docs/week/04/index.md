@@ -1,0 +1,25 @@
+## Week 4 - Tabular data
+
+- **Lecture**
+  - slides: [Attribute Tables and Tabular Data](ESM-263-2022-04-Attribute_Tables_and_Tabular_Data.pdf)
+- **Reading**
+  - Bolstad: ch 8: Attribute Data and Tables
+  - [On the Theory of Scales of Measurement](Stevens_Measurement_Scales.pdf)
+  - [Relational databases](http://link.springer.com/content/pdf/10.1007%2F978-1-84996-095-3_3.pdf) (from [*Introduction to Databases: From Biological to Spatio-Temporal*](http://doi.org/10.1007/978-1-84996-095-3))
+- **Reference**
+  - QGIS User Guide
+    - [14.1.10. Joins Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#joins-properties)
+    - [14.4: Working with the Attribute Table](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/attribute_table.html)
+      - [14.4.6. Creating one or many to many relations](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/attribute_table.html#creating-one-or-many-to-many-relations)
+- **Lab**
+  - QGIS Tutorials and Tips
+    - [Basemaps](../../general/basemaps/index.md)
+    - [Performing Table Joins](https://www.qgistutorials.com/en/docs/3/performing_table_joins.html)
+  - Bolstad: Lab 8: More Table Joins    
+    - [handout](Bolstad_L8/Bolstad_L8.pdf)
+    - [data](Bolstad_L8/Bolstad_L8.zip)
+    - [Issues with CSVs in Windows](../../general/CSVs_Windows/index.md)
+- **Recordings**
+  - [2022-01-24 lecture](https://ucsb.box.com/s/dab9gxf22poyzndju2fjdsx5tnlmfbza)
+  - [2022-01-25 lab](https://ucsb.box.com/s/jjfm1aqkbc7gcn429ctw5j78qcquadwl)
+  - [2022-01-26 lab](https://ucsb.box.com/s/7wzfato8bhitkffugij5kmuq1o98r1j6)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:gx="http://www.google.com/kml/ext/2.2"
+     xmlns:kml="http://www.opengis.net/kml/2.2">
+    <Placemark>
+        <name>Prime Meridian (original)</name>
+        <LookAt>
+            <longitude>-0.001441691007995072</longitude>
+            <latitude>51.47785306568122</latitude>
+            <altitude>0</altitude>
+            <heading>177.9626413662441</heading>
+            <tilt>45.05625049281034</tilt>
+            <range>102.1969243845683</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+        </LookAt>
+        <Point>
+            <coordinates>
+            -0.001504971023682522,51.4779402252594,0</coordinates>
+        </Point>
+    </Placemark>
+</kml>

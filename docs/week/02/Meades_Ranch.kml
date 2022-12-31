@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:gx="http://www.google.com/kml/ext/2.2"
+     xmlns:kml="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Meades Ranch Triangulation Station</name>
+    <open>1</open>
+
+    <Style id="local">
+      <BalloonStyle>
+        <text><![CDATA[<p>$[name]</p><p>$[description]</p>]]></text>
+      </BalloonStyle>
+    </Style>
+
+    <Placemark>
+      <name>Meades Ranch Triangulation Station</name>
+      <description><![CDATA[<a href="https://en.wikipedia.org/wiki/Meades_Ranch_Triangulation_Station">Wikipedia</a>]]></description>
+      <styleUrl>#local</styleUrl>
+      <Point>
+        <coordinates>-98.54215150000002,39.22408672,0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>
