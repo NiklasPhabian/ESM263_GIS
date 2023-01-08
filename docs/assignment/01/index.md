@@ -5,7 +5,7 @@
 - TOC
 {:toc}
 
-Due at **Wed 2022-01-12 23:59**
+Due at **Wed 2023-01-18 23:59**
 
 ### Summary
 
@@ -50,38 +50,40 @@ Bolstad book.
 
 Design a map of the world that shows demographic information for each country.
 
-> **Bonus:** Instead of using the CountryWatch dataset we provide, you can find another (global) dataset of your choice on the web and use it instead. Don't forget to reference the source!
+> **Bonus:**
+> 
+> 1) Instead of using the provided dataset, you can find another dataset of your choice on the web and use it instead. Don't forget to reference the source!
+>
+> 2) Calculate ratios of the metrics, e.g. the population density.
 
-1. Download the assignment data file [`HW1.zip`](HW1.zip).
 
-2. Extract `HW1.zip` file into your `ESM263` folder. This should result in the following folder structure:
+1. Create a folder for your HW1 project, called, e.g. `HW1/`
 
-    - `ESM263/HW1`: assignment folder
-      - `ESM263/HW1/CountryWatch.qlr`: QGIS layer for the CountryWatch data
-      - `ESM263/HW1/CountryWatch.htm`: metadata document
-      - `ESM263/HW1/HW1.gpkg`: CountryWatch data in a "geopackage" database
+1. Download the assignment data file [`world.gpgk`](world.gpkg).
+This data was extracted from The [CIA World Factbook](https://www.cia.gov/the-world-factbook/) ([Extraction script](extract_cia.md))
 
-3. Start up QGIS and save the new empty project as `ESM263/HW1/HW1.qgz`
+
+1. Move `world.gpkg` file into your HW1 project folder
+
+1. Start up QGIS and save the new empty project as `ESM263/HW1/HW1.qgz`
 
     > The *Browser* panel will now contain a *Project Home* "folder" that serves as shortcut to `ESM263/HW1`
 
-4. Add `CountryWatch.qlr` to your map  either by drag and dropping or by using *Layer→Add Layer*.
+1. Add `world.gpkg` to your map  either by drag and dropping or by using *Layer→Add Layer*.
 
-    > **Pro tip:** You could also just double-click on `CountryWatch.qlr` in the *Browser* panel. Doing this for anything that QGIS knows how to display will add it to your map as the top layer(s).
+    > **Pro tip:** You could also just double-click on `world.gpkg` in the *Browser* panel. Doing this for anything that QGIS knows how to display will add it to your map as the top layer(s).
+    
+1. Take a look at the different metrics displayed at on the [CIA World Factbook Guide to Country Comparisons](https://www.cia.gov/the-world-factbook/references/guide-to-country-comparisons/) page. This contains the metadata for the *world.gpkg* data. Skim the different metrics and their descriptions.
 
-5. Read `CountryWatch.htm`. This is the metadata for the *CountryWatch* data—skim the section titled *How does the data set describe geographic features?*
-
-6. Choose a variable to use for your map from the variables documented in the metadata. Examples include energy consumption *ENGCONPC97*, population density *POPDENS00* or greenhouse gas emissions *GGAS\_EMS98*. You may choose any variable (except for *Dependency Ratio*!). Use the *Attribute Table* of the *Countries* layer to view the data in tabular form.
+1. Choose a metric to use for your map from the variables documented in the metadata. Examples include *Area*, *Population*. You may choose any variable (or calculate ratios of different variables). Use the *Attribute Table* of the *world* layer to view the data in tabular form.
 
     Here is an example map with *Title*, *Legend*, and *Acknowledgement* elements:
 
     ![Figure 1: Dependency Ratio (CountryWatchexample)](images/HW1.png)
 
-7. Design a map for your data, while considering these questions:
+1. Design a map for your data, while considering these questions:
 
     - What is/are the source(s) for your data?
-
-    - Who collected the data for your variable? How?
 
     - What are the units of your variable?
 
@@ -93,7 +95,7 @@ Design a map of the world that shows demographic information for each country.
 
       > You might want to consult subsection [15.1.3.1.4. Graduated Renderer](https://docs.qgis.org/3.22/en/docs/user_manual/working_with_vector/vector_properties.html?highlight=classification#graduated-renderer) of the QGIS manual.
 
-8. Lay out your map using the *Layout* tool (*Project→New Print Layout*). Include *Title*, *Legend*, and *Acknowledgment* elements. **Remember to include your name and your data sources.** For your page layout, use letter paper in landscape mode (11\" × 8.5\").
+1. Lay out your map using the *Layout* tool (*Project→New Print Layout*). Include *Title*, *Legend*, and *Acknowledgment* elements. **Remember to include your name and your data sources.** For your page layout, use letter paper in landscape mode (11\" × 8.5\").
 
     Export your map as a PDF image by using *Layout→Export as PDF* (or click the *Export as PDF* button) and use `HW1.PDF` as the file name.
 
@@ -103,12 +105,12 @@ Design a map of the world that shows demographic information for each country.
 
     ![Figure 3: Export Map](images/HW1_export2_qgis.png)
 
-9. Verify that your PDF document contains a clear and readable map.
+1. Verify that your PDF document contains a clear and readable map.
 
 #### Task 4: Turn-in your assignment
 
 1. **Rename** your map image file to include your full name with proper capitalization and no spaces or punctuation ([Camel Case](https://en.wikipedia.org/wiki/Camel_case); e.g., from `HW1.pdf` to `HW1MortimerSnerd.pdf`.
-2. **Create** a submission by uploading your map image file to the assignment page on the gauchospace course website.
+2. **Create** a submission by uploading your map image file to the assignment page on the Canvas course website.
 
 ### Things to look out for
 

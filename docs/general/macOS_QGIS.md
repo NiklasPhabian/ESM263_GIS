@@ -1,7 +1,7 @@
 ## Installing QGIS (macOS)
 
-1. Download [`QGIS-3.22.2.dmg`](https://ucsb.box.com/s/uisnoqytfftdqesacf3f97kldyonbdd0)
-2. Double-click `QGIS-3.22.2.dmg`
+1. Download [`qgis-macos-ltr.dmg`](https://ucsb.box.com/s/bk94wx7u333iqe4q0b58zg1tgug6ta6b)
+2. Double-click `qgis-macos-ltr.dmg`
 3. Drag *QGIS* to your *Applications* folder
 4. Double-click on *QGIS* to start it.
    - If you get a security warning, and *QGIS* won't start, try **right**-clicking on *QGIS* and then clicking *Open*. (You'll only need to do this once; thereafter, *QGIS* will start normally.)

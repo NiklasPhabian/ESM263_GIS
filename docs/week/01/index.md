@@ -15,6 +15,9 @@
 - **FAQ**:
     - [Color brewer in QGIS](../../general/ColorBrewer/index.md)
     - [Margins and frames in QGIS map layouts](../../general/margins_and_frames/index.md)
+    
+- **Bonus**
+    [Free software, free society: Richard Stallman at TEDxGeneva 2014](https://www.youtube.com/watch?v=Ag1AKIl_2GM)
 
 - **Recordings:**    
 
