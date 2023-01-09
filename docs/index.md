@@ -34,6 +34,8 @@ Office hours:
 
 - Mondays at 10:00 to 11:00 in the GIS lab (BH 3035)
 - Wednesdays at 17:15 to 18:15 in the GIS lab (BH 3035)
+
+[Sean Reid Info](general/Sean.pdf)
   
 
 # When & Where

@@ -59,11 +59,12 @@ Design a map of the world that shows demographic information for each country.
 
 1. Create a folder for your HW1 project, called, e.g. `HW1/`
 
-1. Download the assignment data file [`world.gpgk`](world.gpkg).
+1. Download the assignment data file [`world.zip`](world.gpkg).
 This data was extracted from The [CIA World Factbook](https://www.cia.gov/the-world-factbook/) ([Extraction script](extract_cia.md))
 
-
-1. Move `world.gpkg` file into your HW1 project folder
+1. Extract `world.zip` into your HW1 project folder. It should contain:
+    - `world.gpkg`. A geopackage containing the outlines of the countries of the worlds and various metrics on these countries
+    - `capitals.gpkg`. A geopackage containing the capitals of the world.
 
 1. Start up QGIS and save the new empty project as `ESM263/HW1/HW1.qgz`
 
@@ -72,6 +73,8 @@ This data was extracted from The [CIA World Factbook](https://www.cia.gov/the-wo
 1. Add `world.gpkg` to your map  either by drag and dropping or by using *Layer→Add Layer*.
 
     > **Pro tip:** You could also just double-click on `world.gpkg` in the *Browser* panel. Doing this for anything that QGIS knows how to display will add it to your map as the top layer(s).
+    
+1. Optionally, add `capitals.gpgk` to your map. Decide if you want to display the capitals or not.
     
 1. Take a look at the different metrics displayed at on the [CIA World Factbook Guide to Country Comparisons](https://www.cia.gov/the-world-factbook/references/guide-to-country-comparisons/) page. This contains the metadata for the *world.gpkg* data. Skim the different metrics and their descriptions.
 

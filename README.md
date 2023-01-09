@@ -19,83 +19,15 @@
 
 ## Additional URLs
 
-- data files too big for GitHub: https://ucsb.box.com/s/o1jbzf7pjc905zw4cw6a6kx3gq5zx3em
-- GauchoSpace: https://gauchospace.ucsb.edu/courses/course/view.php?id=372
-- Slack: https://esm263-w22.slack.com/
+- data files too big for GitHub: [Box](https://ucsb.app.box.com/folder/186707554033?s=g50uv6oely7rntr0f64l4fepdd9aovkm)
+- [Canvas](https://ucsb.instructure.com/courses/3096)
 
-### PURLs
-
-- http://purl.org/ucsb-bren/ESM263
-- http://purl.org/ucsb-bren/ESM263-data
-- http://purl.org/ucsb-bren/ESM263-GS
-- http://purl.org/ucsb-bren/ESM263-Slack
-
-## GauchoSpace snippets
-
-stuff to be cut-n-pasted into GauchoSpace
-
-### Edit settings
-
-Course format
-
-- Format
-
-  ```
-  Topics format
-  ```
-
-  - NB: Onetopic format doesn't work with 0 sections
-
-### Turn editing on
-
-#### Edit section
-
-Section name:
-
-```
-ESM 263: Geographic Information Systems
-```
-
-#### Add an activity or resource → URL
-
-Name:
-
-```
-Course home page
-```
-
-External URL
-
-```
-https://purl.org/ucsb-bren/ESM263/
-```
-
-#### Add an activity or resource → Label
-
-Label text
-
-```
-<h5><br>Submit assignments:</h5>
-```
-
-#### Add an activity or resource → Assignment
-
-Assignment name
-
-```
-N: title
-```
-
-Description
-
-```
-Click <b>&rarr;<a href="https://purl.org/ucsb-bren/ESM263/assignment/N/HWN.html">here</a>&larr;</b> for description
-```
-
+## Cut videos
+ffmpeg -i gazinga.mp4 -ss 10:38 -to 2:00:23 -c copy gazouta.mp4
 
 ## Run/build
 ```bash
-sudo apt-get install ruby-full build-essential
+sudo apt install ruby-full build-essential
 bundle init
 bundle add webrick
 bundle add jekyll

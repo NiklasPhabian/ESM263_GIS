@@ -1,7 +1,7 @@
 ## Week 1 - Introduction to GIS & cartography
 
 - **Lecture**
-     - slides: Geographic Information Systems: Introduction <!--(ESM-263-2022-01-Introduction.pdf) -->
+     - slides: Geographic Information Systems: [Introduction](ESM263_Week1.pdf)
 - **Reading**
     - Bolstad: [ch 1: An Introduction to GIS](GIS_Fundamentals_6e_ch1.pdf)
       - (We're posting this chapter for those of you that are still waiting for your book to arrive...)

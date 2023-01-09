@@ -10,7 +10,7 @@
 - [Configuring QGIS](QGIS_config.md)
 - [ColorBrewer in QGIS](ColorBrewer/index.md)
 - [Margins and frames in QGIS map layouts](margins_and_frames/index.md)
-- [QGIS Training Data](https://ucsb.box.com/s/rg48f63exby4sqvt2g5twl4pcsy4v18d)
+- [QGIS Training Data](https://ucsb.box.com/s/t7clkr1yd8ssde8w1kejsm0gfsbl5urm)
   - data layers used by the examples and exercises in the [QGIS Training manual](https://docs.qgis.org/3.22/en/docs/training_manual/)
 - [Issues with CSVs in Windows](CSVs_Windows/index.md)
 - [Basemaps for QGIS](basemaps/index.md)
