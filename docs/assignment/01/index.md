@@ -59,12 +59,13 @@ Design a map of the world that shows demographic information for each country.
 
 1. Create a folder for your HW1 project, called, e.g. `HW1/`
 
-1. Download the assignment data file [`world.zip`](world.gpkg).
+1. Download the assignment data file [`HW1.zip`](world.gpkg).
 This data was extracted from The [CIA World Factbook](https://www.cia.gov/the-world-factbook/) ([Extraction script](extract_cia.md))
 
-1. Extract `world.zip` into your HW1 project folder. It should contain:
+1. Extract `HW1.zip` into your HW1 project folder. It should contain:
     - `world.gpkg`. A geopackage containing the outlines of the countries of the worlds and various metrics on these countries
     - `capitals.gpkg`. A geopackage containing the capitals of the world.
+    - `bbox.gpkg`. A geopackage containing a bounding box of the world and 20 degree graticules.
 
 1. Start up QGIS and save the new empty project as `ESM263/HW1/HW1.qgz`
 

@@ -91,7 +91,7 @@ More about QGIS at:
 # Textbooks
 
 - **required:**
-  - Pauk Bolstad and Steven Manson (2022) ***GIS Fundamentals: A First Text on Geographic information Systems, 7th Edition***. 
+  - Paul Bolstad and Steven Manson (2022) ***GIS Fundamentals: A First Text on Geographic information Systems, 7th Edition***. 
   ISBN 978-0-9717647-5-0  [[homepage](https://www.gisfundamentals.org/)] 
     
 - optional:
@@ -125,4 +125,3 @@ More about QGIS at:
 | Wed 2023-02-10  | Sea level rise                              |                                       |
 | Wed 2023-03-03  | Site suitability for wind power             |                                       |
 | Wed 2023-03-24  | Multicriteria analysis for conservation     |                                       |
-
