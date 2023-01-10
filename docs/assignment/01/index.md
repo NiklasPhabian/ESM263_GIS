@@ -59,7 +59,7 @@ Design a map of the world that shows demographic information for each country.
 
 1. Create a folder for your HW1 project, called, e.g. `HW1/`
 
-1. Download the assignment data file [`HW1.zip`](world.gpkg).
+1. Download the assignment data file [`HW1.zip`](HW1.zip).
 This data was extracted from The [CIA World Factbook](https://www.cia.gov/the-world-factbook/) ([Extraction script](extract_cia.md))
 
 1. Extract `HW1.zip` into your HW1 project folder. It should contain:
