@@ -37,6 +37,9 @@
       - Skip 3.2.4&ndash;3.2.8 and 3.3.3&ndash;3.3.5
   - [4. Module: Laying out the Maps](https://docs.qgis.org/3.22/en/docs/training_manual/map_composer/index.html)
   - [6.1: Reprojecting and Transforming Data](https://docs.qgis.org/3.22/en/docs/training_manual/vector_analysis/reproject_transform.html)
+- Using Style Files
+    - Classifying data and creating nice symbols and colors can be a time consuming process. Generally when you put all that work in you want to keep that style for use on other data or you might try several iterations of a style before settling on one. Take a look at the link below to learn more about saving style!
+    - [Style Files](https://hub.packtpub.com/style-management-qgis/)
       
 ### Recordings
   - [2023-01-16_lecture](https://ucsb.box.com/s/wmxgfjadz2vqvr7gduwjcoklntauopff)
