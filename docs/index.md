@@ -121,7 +121,7 @@ More about QGIS at:
 
 | due             | assignment                                  | feedback                              |
 | ----------      | --------------------------------------------| ------------------------------------- |
-| Wed 2023-01-20  | [Cartography](assignment/01/index.md)       |                                       |
-| Wed 2023-02-10  | Sea level rise                              |                                       |
-| Wed 2023-03-03  | Site suitability for wind power             |                                       |
-| Wed 2023-03-24  | Multicriteria analysis for conservation     |                                       |
+| Fri 2023-01-20  | [Cartography](assignment/01/index.md)       |                                       |
+| Fri 2023-02-10  | Sea level rise                              |                                       |
+| Fri 2023-03-03  | Site suitability for wind power             |                                       |
+| Fri 2023-03-24  | Multicriteria analysis for conservation     |                                       |
