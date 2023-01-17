@@ -24,7 +24,7 @@ Office hours:
 
 - By appointment griessbaum@ucsb.edu. If you request an appointment, please let me know if I can announce it on [Canvas](https://ucsb.instructure.com/courses/3096) and let your classmates crash it. (You get first dibs on questions …)
 - Tuesdays after lab from 14:00 to 15:30 in the GIS lab (BH 3035)
-- Wednesdays from 10:00 to 11:30 in the GIS lab (BH 3035)
+- Wednesdays from 11:00 to 12:30 in the GIS lab (BH 3035)
 - If everything else fails: Drop in at my office in (BH 3001). I should be around Mondays through Wednesdays. Please mind that I have very busy officemates.
 
 
@@ -104,7 +104,7 @@ More about QGIS at:
 | week |       dates                | topics                                     |
 | --:  | ---------------:           | ------------------------------------------ |
 |  1   | 2023-01-09 to 2023-01-13   | [Introduction to GIS & cartography](week/01/index.md)      |
-|  2   | 2023-01-16 to 2023-01-20   | Coordinate systems and map projections     |
+|  2   | 2023-01-16 to 2023-01-20   | [Coordinate systems and map projections](week/02/index.md) |
 |  3   | 2023-01-23 to 2023-01-27   | Vector data                                |
 |  4   | 2023-01-30 to 2023-02-03   | Tabular data                               |
 |  5   | 2023-02-06 to 2023-02-10   | Raster data                                |
