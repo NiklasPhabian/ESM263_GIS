@@ -3,11 +3,39 @@
 - **Lecture**
     - slides: [Vector Data](ESM-263-2022-03-Vector_Data.pdf)
     - sample data: [vector formats](vector_formats.zip)
+    - [US counties](https://docs.qgis.org/3.22/en/_images/difference.png)
+    - [WKT](https://ucsb.box.com/s/o2rr1ao241qzn8ywqtcq85la3ig28wlv)
 - **Reading**
     - Bolstad: ch 2: Data Models (through page 50)
     - A Gentle Introduction to GIS: [ch 3: Vector Data](https://docs.qgis.org/3.22/en/docs/gentle_gis_introduction/vector_data.html)
 - **Reference**
     - QGIS User Guide: [11.5 Interacting with features](https://docs.qgis.org/3.22/en/docs/user_manual/introduction/general_tools.html#interacting-with-features)
+    - [Spatial Relations](https://en.wikipedia.org/wiki/Spatial_relation)    
+    - Simple Features:
+        - [Wikipedia](https://en.wikipedia.org/wiki/Simple_Features)
+        - [R-Spatial](https://r-spatial.github.io/sf/articles/sf1.html)
+        - [OGC ISO Standard](https://www.ogc.org/standards/sfa)
+    - File types:
+        - [Shapefiles](https://en.wikipedia.org/wiki/Shapefile)
+        - [Coverages](https://desktop.arcgis.com/en/arcmap/latest/manage-data/coverages/what-is-a-coverage.htm)
+        - [geodatabase](https://desktop.arcgis.com/en/arcmap/latest/manage-data/geodatabases/what-is-a-geodatabase.htm)
+        - [geopackage](https://www.geopackage.org/)
+        - [SQLiteBrowser](https://sqlitebrowser.org/)
+        - [Gaia-Sins](https://www.gaia-gis.it/gaia-sins/)
+        - [SpatialLite](https://www.gaia-gis.it/fossil/libspatialite/index)
+        - [SpatiaLite SQL functions reference list](https://www.gaia-gis.it/gaia-sins/spatialite-sql-5.0.1.html)
+    - Operations
+        - [Buffering](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#buffer)
+        - [Intersection](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#intersection)
+        - [Union](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#union)
+        - [Symmetrical difference](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#symmetrical-difference)
+        - [Difference](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#difference)
+        - [Dissolve](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#dissolve)
+        - [Clip](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#clip)
+        - [Merge](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#merge-vector-layers)
+        - [Select](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-by-expression)
+        - [Eliminate](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#eliminate-selected-polygons)
+    - 
 - **Lab**
     - QGIS Tutorials and Tips: [Performing Spatial Joins](https://www.qgistutorials.com/en/docs/3/performing_spatial_joins.html)
         - [Handling Invalid Geometries](https://www.qgistutorials.com/en/docs/3/handling_invalid_geometries.html)
@@ -17,7 +45,3 @@
           - [cheat sheet](Bolstad_L9/cheat_sheet.md)
         - [data](Bolstad_L9/Bolstad_L9.zip)
 - **Recordings**
-    - [2022-01-17 lecture](https://ucsb.box.com/s/2og8tcj9plkrm18zmjt7dvzp3tdvt4ff)
-    - [2022-01-18 lab](https://ucsb.box.com/s/4ekq5bwi2wez9jub9f50ol70ttc0fsdq)
-    - [2022-01-19 lab](https://ucsb.box.com/s/qatxixubeic2pti84tvqwxzyzyjb5joa)
-

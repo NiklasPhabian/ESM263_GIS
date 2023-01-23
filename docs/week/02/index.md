@@ -43,3 +43,5 @@
       
 ### Recordings
   - [2023-01-16_lecture](https://ucsb.box.com/s/wmxgfjadz2vqvr7gduwjcoklntauopff)
+  - [lab1](https://ucsb.box.com/s/o7juhsuxdw0nryfleo3uquqsh7nh6ekq)
+  - [lab2](https://ucsb.box.com/s/ivsvum72j6zlycpfcgibucsr8xhkrlju)

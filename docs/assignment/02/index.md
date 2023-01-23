@@ -1,6 +1,6 @@
 ## Assignment 2 - Sea level rise in Santa Barbara
 
-Due at **Wed 2022-02-02 23:59**
+Due at **Fri 2023-02-10 23:59**
 
 **CONTENTS**
 
@@ -153,4 +153,4 @@ Design a map that communicates your results, including a table with the relevant
    - `HW2.pdf` to `HW2FirstLastName.pdf`
    - `HW2.csv` to `HW2FirstLastName.csv`
 1. Verify that your PDF document displays correctly, and that your CSV file is readable by QGIS (and/or Excel) and has the correct field names and data types.
-1. Upload your PDF and CSV files to the Assignment 2 link on [GauchoSpace](https://purl.org/ucsb-bren/ESM263-GS).
+1. Upload your PDF and CSV files to the Assignment 2 link on Canvas.

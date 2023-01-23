@@ -101,14 +101,14 @@ More about QGIS at:
 
 # Syllabus
 
-| week |       dates                | topics                                     |
-| --:  | ---------------:           | ------------------------------------------ |
-|  1   | 2023-01-09 to 2023-01-13   | [Introduction to GIS & cartography](week/01/index.md)      |
-|  2   | 2023-01-16 to 2023-01-20   | [Coordinate systems and map projections](week/02/index.md) |
-|  3   | 2023-01-23 to 2023-01-27   | Vector data                                |
-|  4   | 2023-01-30 to 2023-02-03   | Tabular data                               |
-|  5   | 2023-02-06 to 2023-02-10   | Raster data                                |
-|  6   | 2023-02-13 to 2023-02-17   | GIS models                                 |
+| week |       dates                | topics                                                      |
+| --:  | ---------------:           | ------------------------------------------                  |
+|  1   | 2023-01-09 to 2023-01-13   | [Introduction to GIS & cartography](week/01/index.md)       |
+|  2   | 2023-01-16 to 2023-01-20   | [Coordinate systems and map projections](week/02/index.md)  |
+|  3   | 2023-01-23 to 2023-01-27   | [Vector data](week/03/index.md)                             |
+|  4   | 2023-01-30 to 2023-02-03   | Tabular data                                                |
+|  5   | 2023-02-06 to 2023-02-10   | Raster data                                                 |
+|  6   | 2023-02-13 to 2023-02-17   | GIS models                                  |
 |  7   | 2023-02-20 to 2023-02-24   | Terrain and watershed analysis             |
 |  8   | 2023-02-27 to 2023-03-03   | GIS data: sources and capture              |
 |  9   | 2023-03-06 to 2023-03-10   | Programming GIS                            |
@@ -122,6 +122,6 @@ More about QGIS at:
 | due             | assignment                                  | feedback                              |
 | ----------      | --------------------------------------------| ------------------------------------- |
 | Fri 2023-01-20  | [Cartography](assignment/01/index.md)       |                                       |
-| Fri 2023-02-10  | Sea level rise                              |                                       |
+| Fri 2023-02-10  | [Sea level rise](assignment/02/index.md)    |                                       |
 | Fri 2023-03-03  | Site suitability for wind power             |                                       |
 | Fri 2023-03-24  | Multicriteria analysis for conservation     |                                       |
