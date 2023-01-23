@@ -3,7 +3,7 @@
 - **Lecture**
     - slides: [Vector Data](ESM263_Week3.pdf)
     - sample data: [vector formats](vector_formats.zip)
-    - [US counties](https://docs.qgis.org/3.22/en/_images/difference.png)
+    - [US counties](https://ucsb.box.com/s/mcvv57kgjo0rsu6af11sdksi179m3q1m)
     - [WKT](https://ucsb.box.com/s/o2rr1ao241qzn8ywqtcq85la3ig28wlv)
 - **Reading**
     - Bolstad: ch 2: Data Models (through page 50)
