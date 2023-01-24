@@ -10,7 +10,7 @@
     - A Gentle Introduction to GIS: [ch 3: Vector Data](https://docs.qgis.org/3.22/en/docs/gentle_gis_introduction/vector_data.html)
 - **Reference**
     - QGIS User Guide: [11.5 Interacting with features](https://docs.qgis.org/3.22/en/docs/user_manual/introduction/general_tools.html#interacting-with-features)
-    - [Spatial Relations](https://en.wikipedia.org/wiki/Spatial_relation)    
+    - [Spatial Relations](https://en.wikipedia.org/wiki/Spatial_relation)
     - Simple Features:
         - [Wikipedia](https://en.wikipedia.org/wiki/Simple_Features)
         - [R-Spatial](https://r-spatial.github.io/sf/articles/sf1.html)
@@ -37,11 +37,16 @@
         - [Eliminate](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#eliminate-selected-polygons)
     - 
 - **Lab**
-    - QGIS Tutorials and Tips: [Performing Spatial Joins](https://www.qgistutorials.com/en/docs/3/performing_spatial_joins.html)
+    - QGIS Tutorials and Tips: 
+        - [Performing Spatial Joins](https://www.qgistutorials.com/en/docs/3/performing_spatial_joins.html)
+            - [NYC Subway Lines 2018](https://ucsb.box.com/s/d4k2ln8ds6nqur3w2q8n2nyjx4cwa7ca)
+            - [NYC Subway Lines 2020](https://ucsb.box.com/s/rz6k5ofc123xwlp1svl66n48by10zpyd)
         - [Handling Invalid Geometries](https://www.qgistutorials.com/en/docs/3/handling_invalid_geometries.html)
-            - [Invalid Geometry Examples](https://community.safe.com/s/article/invalid-ogc-geometry-examples)
+            - [Invalid Geometry Examples - OGC](https://community.safe.com/s/article/invalid-ogc-geometry-examples)
+            - [Invalid Geometry Examples - QGIS](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#types-of-error-messages-and-their-meanings)
     - Bolstad: Lab 9: Buffering & Overlay
         - [handout](Bolstad_L9/Bolstad_L9.pdf)
           - [cheat sheet](Bolstad_L9/cheat_sheet.md)
         - [data](Bolstad_L9/Bolstad_L9.zip)
 - **Recordings**
+    - [Lecture](https://ucsb.box.com/s/t65xmrtvzhfjrovw87yotrmojfmlv49j)
