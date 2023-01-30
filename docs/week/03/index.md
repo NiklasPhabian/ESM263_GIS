@@ -35,7 +35,6 @@
         - [Merge](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#merge-vector-layers)
         - [Select](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-by-expression)
         - [Eliminate](https://docs.qgis.org/3.22/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#eliminate-selected-polygons)
-    - 
 - **Lab**
     - QGIS Tutorials and Tips: 
         - [Performing Spatial Joins](https://www.qgistutorials.com/en/docs/3/performing_spatial_joins.html)
