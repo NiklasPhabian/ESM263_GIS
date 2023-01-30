@@ -50,3 +50,5 @@
         - [data](Bolstad_L9/Bolstad_L9.zip)
 - **Recordings**
     - [Lecture](https://ucsb.box.com/s/t65xmrtvzhfjrovw87yotrmojfmlv49j)
+    - [Lab1](https://ucsb.box.com/s/t0d71h59gxep6vgl1pfojdwozcg0qm1e)
+    - [Lab2](https://ucsb.box.com/s/zn58p8hxessna1itaxc8pwrxfiubno07)
