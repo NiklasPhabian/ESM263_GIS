@@ -38,3 +38,8 @@ Another source of basemaps is the *QuickMapServices* plugin. You can install it 
 
 You can get even more maps from *QuickMapServices* by adding the Contribute Pack. Go to *Web&rarr;QuickMapServices&rarr;Settings&rarr;More services* and click *Get contributed pack*. (Not all of these services work…)
 
+
+### NASA GIBS (WMS)
+
+- [Worldview](https://worldview.earthdata.nasa.gov/)
+- [NASA GIBS](https://nasa-gibs.github.io/gibs-api-docs/gis-usage/#qgis)

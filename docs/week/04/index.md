@@ -23,6 +23,6 @@
     - [data](Bolstad_L8/Bolstad_L8.zip)
     - [Issues with CSVs in Windows](../../general/CSVs_Windows/index.md)
 - **Recordings**
-  - [Lecture]()
+  - [Lecture](https://ucsb.box.com/s/uo3xwlngnta0i7sm8nea8q3bw088wcdy)
   - [Lab1]()
   - [Lab2]()
