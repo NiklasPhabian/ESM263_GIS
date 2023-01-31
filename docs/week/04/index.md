@@ -1,7 +1,7 @@
 ## Week 4 - Tabular data
 
 - **Lecture**
-  - slides: [Attribute Tables and Tabular Data](ESM-263-2022-04-Attribute_Tables_and_Tabular_Data.pdf)
+  - slides: [Attribute Tables and Tabular Data](ESM263_Week4.pdf)
 - **Reading**
   - Bolstad:
     - 5th Edition Ch 8: Tables
