@@ -23,7 +23,10 @@
     - [handout](Bolstad_L8/Bolstad_L8.pdf)
     - [data](Bolstad_L8/Bolstad_L8.zip)
     - [Issues with CSVs in Windows](../../general/CSVs_Windows/index.md)
+  - **Homework 1 Review**
+    - [Homework Review](markdown_for_class.pdf)
 - **Recordings**
   - [Lecture](https://ucsb.box.com/s/uo3xwlngnta0i7sm8nea8q3bw088wcdy)
   - [Lab1](https://ucsb.box.com/s/k7x3markmk66lv3qjbon2v33q0urzfxh)
   - [Lab2](https://ucsb.box.com/s/ppmbsbq9og1jmwajb3o223wxnooiwdbk)
+
