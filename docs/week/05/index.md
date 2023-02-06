@@ -1,7 +1,7 @@
 ## Week 5 - Raster data
 
 -   **Lecture**
-    - slides: [Raster Data]()
+    - slides: [Raster Data](ESM263_Week5.pdf)
     - data: 
         - [Raster formats](raster_formats.zip)
         - [highways](highways.zip)
