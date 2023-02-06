@@ -4,6 +4,7 @@
   - slides: [Attribute Tables and Tabular Data](ESM263_Week4.pdf)
 - **Reading**
   - Bolstad:
+    - 4th Edition Ch 8: Attribute Data and Tables
     - 5th Edition Ch 8: Tables
     - 6th Edition Ch 8: Attribute Data and Tables
     - 7th Edition Ch 8: Tables and Relational Databases
@@ -24,5 +25,5 @@
     - [Issues with CSVs in Windows](../../general/CSVs_Windows/index.md)
 - **Recordings**
   - [Lecture](https://ucsb.box.com/s/uo3xwlngnta0i7sm8nea8q3bw088wcdy)
-  - [Lab1]()
-  - [Lab2]()
+  - [Lab1](https://ucsb.box.com/s/k7x3markmk66lv3qjbon2v33q0urzfxh)
+  - [Lab2](https://ucsb.box.com/s/ppmbsbq9og1jmwajb3o223wxnooiwdbk)
