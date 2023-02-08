@@ -25,5 +25,7 @@
 -   **Lab**
     -   QGIS Tutorials and Tips: [Automating Complex Workflows using Processing Modeler](https://www.qgistutorials.com/en/docs/3/processing_graphical_modeler.html)
         -   [notes](tutorial_notes.md)
+    - [VICE News: Pirates are Running Wild off West Africa’s Coast System Error](https://www.youtube.com/watch?v=6XtuPck0b4U)
 -   **Recordings**
-
+    - [Lecture](https://ucsb.box.com/s/p8xtj0htsd1xfronl7r7iagixncdj36b)
+    - [Lab1](https://ucsb.box.com/s/hn8d5pv90hju7tsz6uemmlstlmphnb4m)
