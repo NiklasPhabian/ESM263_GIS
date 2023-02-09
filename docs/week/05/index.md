@@ -29,3 +29,4 @@
 -   **Recordings**
     - [Lecture](https://ucsb.box.com/s/p8xtj0htsd1xfronl7r7iagixncdj36b)
     - [Lab1](https://ucsb.box.com/s/hn8d5pv90hju7tsz6uemmlstlmphnb4m)
+    - [Lab2](https://ucsb.box.com/s/1cq6f1xgakhl0jsf46pyxt2z0vhnhs1n)
