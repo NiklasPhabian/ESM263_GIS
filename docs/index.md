@@ -108,7 +108,7 @@ More about QGIS at:
 |  3   | 2023-01-23 to 2023-01-27   | [Vector data](week/03/index.md)                             |
 |  4   | 2023-01-30 to 2023-02-03   | [Tabular data](week/04/index.md)                            |
 |  5   | 2023-02-06 to 2023-02-10   | [Raster data](week/05/index.md)                             |
-|  6   | 2023-02-13 to 2023-02-17   | GIS models                                  |
+|  6   | 2023-02-13 to 2023-02-17   | [GIS models](week/06/index.md)                              |
 |  7   | 2023-02-20 to 2023-02-24   | Terrain and watershed analysis             |
 |  8   | 2023-02-27 to 2023-03-03   | GIS data: sources and capture              |
 |  9   | 2023-03-06 to 2023-03-10   | Programming GIS                            |
@@ -121,7 +121,7 @@ More about QGIS at:
 
 | due             | assignment                                  | feedback                              |
 | ----------      | --------------------------------------------| ------------------------------------- |
-| Fri 2023-01-20  | [Cartography](assignment/01/index.md)       |                                       |
+| Fri 2023-01-20  | [Cartography](assignment/01/index.md)       | [TA](assignment/01/feedback/index.md) |
 | Fri 2023-02-10  | [Sea level rise](assignment/02/index.md)    |                                       |
-| Fri 2023-03-03  | Site suitability for wind power             |                                       |
+| Fri 2023-03-03  | [Site suitability for wind power](assignment/03/index.md) |                         |
 | Fri 2023-03-24  | Multicriteria analysis for conservation     |                                       |

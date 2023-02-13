@@ -8,6 +8,7 @@
 - **Reading**
     - Bolstad: ch 2: Data Models (through page 50)
     - A Gentle Introduction to GIS: [ch 3: Vector Data](https://docs.qgis.org/3.22/en/docs/gentle_gis_introduction/vector_data.html)
+    - [Why you need to use Geopackage files instead of shapefile or GeoJSON ](https://towardsdatascience.com/why-you-need-to-use-geopackage-files-instead-of-shapefile-or-geojson-7cb24fe56416)
 - **Reference**
     - QGIS User Guide: [11.5 Interacting with features](https://docs.qgis.org/3.22/en/docs/user_manual/introduction/general_tools.html#interacting-with-features)
     - [Spatial Relations](https://en.wikipedia.org/wiki/Spatial_relation)

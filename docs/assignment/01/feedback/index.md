@@ -1,244 +1,62 @@
-## Assignment 1 - Cartography - TA feedback
+## Review of Homework 1
 
-**CONTENTS**
+You all did a great job with your maps! It was fun to see the design choices that many of you chose. That is what cartography is all about, putting your personal stamp and style into the presentation of geographic data. There are some cartographic principles to consider when making your maps that we need to keep in mind though. Let's take a look at some using examples from your homework 1 submissions.
 
-- TOC
-{:toc}
+### Datums and Projections
 
-### Map from hell. Roast me ...
+Let's think back all the way to Week 2 when we talked about datums and projections. For Homework 1 we don't have to worry about datums too much because we aren't doing spatial analysis and are simply focusing on creating a nice looking map. For a refresher though, a datum is the model of Earth as an ellipsoid. We use an ellipsoid because Earth is not a sphere and has many imperfections (bumps, lumps, and dips). It can be difficult to perfectly represent this complex shape and datums try to create a best fit ellipsoid with reference points that "touch" the Earth. The most commonly used datum these days is WGS 84, which is what many of you used in your maps. Datums are still dealing with a round version of Earth not the 2D version we working with in QGIS. Some of you chose a different projection that changed the shape/area of the countries shown in your map. This resulted in some different and unique cartographic layouts (shown below).
 
-![Dependency Ratio](images/hellmap.png)
+![](images/medianage_albers.png)
 
-#### All thats wrong with it
+![](images/giniwgs84.png)
 
-- Colors
-    - Is yellow-orange a good choice for ocean?
-    - Should we draw yellow on yellow?
-- Arrangement
-    - Space wasted
-    - No alignment
-    - Irregular space inside frame
-- Text
-    - Incorrect and verbose.
-    - Two different fonts
-    - Serif font
-    - Typo
-    - non-ISO 8601 date
-- Legend
-    - Legend title useless
-    - "No data" not displayed
-    - "HW1 world30" (ocean) displayed
-    - Bad choice of breaks: most of the world is in the same class
-    - No truncated values
-    - No rounded values
-    - Unit is legend title, instead of next to values
-    - "-" used instead of "to"
-- Title
-    - Title doesn't make a lot of sense
-    - "Percentage" of what? should be share of population
-- Scale
-    - Scale bar
-    - Scale
-    - Comma used as thousand separator (in scale)
-- Where is New Zealand?
 
-### Common issues
 
-#### Text
+As you can see, certain arrangments for your map are available if you simply use different projections. An important design consideration are the areas you want to highlight in your map. For example if you are want map readers to pay special attention to Africa, you should choose a projection that highlights that area. Thinking about what you are communicating to your reader is important and brings us to the next section.
 
-- Keep it brief.
-- Keep the fonts consistent. Ideally, use a single font.
-- Prefer sans-serif fonts.
-- Don't make up stuff.
 
-##### Avoid Tautologies:
+### Map Communication
 
-> - "Energy consumption per capita is the total Energy Consumption in Millions of BTUs divided by population".
-> - "Literacy ratio is the proportion of literate population to the total population. "
+Good maps don't need a ton of explanation to get the point across. There are cartographic design choices that highlight certain information and can even be misleading. I'm sure many of you have seen voting district maps that can be misleading because they don't include population density (images from Bloomberg guide to misleading maps and Washington Post election maps telling you big lies about small things.). 
 
-##### No need for overinterpretation
+![](images/misleading.jfif)
+![](images/betterelection.jpg)
 
-Don't overinterpret the data, especially when you don't have any sources to back up your claims. Your map may show population density, energy consumption, or life expectancy. All of this is interesting by itself. It is not the right place to write an interpretation of what might be the causes or consequences of those quantities.
 
-Also, don't pad your descriptive text with stuff that's incomplete, or trivial common sense.
+Similar things can happen with maps, though obviously not as nefarious. The design choices can communicate certain information that you may not intend based on your classification and color choices. The map below and to the left shows variation for energy consumption in Africa but the color choice and classification scheme does not show variation among more developed countries. The map below and to the right shows variation in more developed countries but African countries appear to all be very similar to each other. There is nothing wrong with either of these design choices but it is important for map makers to think about how their data is presented to a wider audience. Let's look at a few other examples of how color and classification choices can influence the data you are communicating in your maps.
 
-##### Be pragmatic in your writing
+![](images/btu_classes.png)
+![](images/energyconsumption_developed.png)
 
-We typically prefer describing what something is rather than how it was created. Compare
 
-> "Population Density was calculated by dividing the total population by the total area"
+#### Color Choices
 
-vs
+The color palette you choose can certainly influence the ease of interpretation for your map. The palette you choose should work well with the number of classes you use in your classification scheme. If you choose a scheme that doesn't have strong contrast, the map may be a bit washed out and that makes it difficult to distinguish between classes. This is especially true when you are looking at global scale maps. Choosing a strong contrast can also give you flexibility as you settle on a classification scheme that best suits your purposes. The map to the left uses a color scheme with greater contrast between classes and it visualizes well on the map. The map to the right uses a good scheme but has a more muted color which doesn't make the differences stand out as well. Again, both maps are good but I want to point out these differences so we can think about them in future assignments.
 
-> "Population Density is the population per area"
+![](images/good_colors.png)
+![](images/muted_colors.png)
 
-This also might be a bit too verbose:
 
-> "Energy consumption per capita is the total Energy Consumption in Millions of BTUs divided by population".
+Choosing between a single color scheme or a scheme with multiple colors also makes a difference. When using continuous data where the goal is to show the difference between small and large values, a single color scheme may be more appropriate because it intuitively makes sense. The color represents something like income where the lighter colors represent less money and the darker colors represent more money. The color staying the same indicates that we are still dealing with money in all the classes. If you use a scheme that changes color this principle doesn't hold and it looks like there is some sort of change happening. Like we are moving from poor to rich, which may not be the goal. An excellent example of when to use a changing color scheme is in the election  maps we looked at above. A move from red to blue shows a change in voting preference. The two maps below illustrate some examples (both good maps!) of different color schemes. It's also good to think about how color blindness can influence how people perceive your maps! There are a lot of good color schemes that take this into account. A good rule of thumb is to avoid red-green gradients.
 
-##### Units in text
 
-Ask yourself: How much information is a reader actually gaining from you mentioning the units you are using in the text, if you've already stated them in the legend?
+![](images/greatmap.png)
+![](images/twocolor_scalebar.png)
 
-#### Most of the world in same class
 
-![Dependency Ratio](images/all_same_color.png)
 
-This might be exactly what you want. Just be sure you are intentional.
 
-#### Dates
+#### Classification
 
-![Dependency Ratio (dates)](images/iso_8601.png)
+The classification schemes you use like equal count, natural breaks, etc have are important considerations. They will show variation or homogeneity differently and you should be careful about which classification you choose. You want your map to be consistent with what you are trying to communicate without being dishonest (it can be easy to lie with maps). Using too few classes might hide important variation and too many classes can make it difficult to interpret your map. Aesthetics can be considered as well! If you aren't very concerned about each individual feature being interpreted, you can use a ton of classes to create a fun visualization! The images below show some examples. 
 
-[XKCD1179](https://xkcd.com/1179/)
+![](images/btu_classes.png)
+![](images/toofew_classes.png)
 
-Stick with this date format, or you will eventually be struck by lightning.
 
-#### Negative values in classes
+#### One last thing! The scalebar
 
-![Negative values](images/negative_values2.png)
+Using a scalebar and using appropriate units is super important for most maps. In the case of a global extent, a scale bar isn't as important because it's such a huge scale. The reader knows the map covers very large distances. The projection you are in will also dictate the units used in your scale bar. Some of you may have noticed a scale bar in degrees that don't have a unit label. If you were in another projection, then you may have gotten a scale bar that scaled millions of kilometers. QGIS will often not even allow you to add a scale bar if are zoomed out too far because they know a scale bar won't be useful at that scale. Below is an example of the degrees scale bar for a WGS 84 projection.
 
-Oops. The metadata says -99 is No Data.
+![](images/twocolor_scalebar.png)
 
-#### Frame gaps
-
-![Frame gaps](images/frame_gaps.png)
-
-Check this page: [Margins and Frames](../../../general/margins_and_frames/index.md)
-
-#### Gaps in the classes
-
-![Frame gaps](images/class_gaps.png)
-
-Which class is a country of a old population of 4.995% in?
-
-Remember, classes in GISs are consistently "open at the bottom, closed at the top." Thus, given two classes 0–5 and 5–10, 5 is unambiguously in the first class.
-
-#### Units
-
-> This is a classic Niklas rave; you should count yourselves lucky to be experiencing it. /Frew
-
-##### Stupid units
-
-- Fight stupid units. Don't accept BTUs. Don't accept acre-feet, foot-pounds, pound-foots, PSI, horsepower, and any [United States customary unit](https://en.wikipedia.org/wiki/United_States_customary_units). Be angry, revolt, and make the world a better place.
-    - "One BTU is the amount of heat required to raise the temperature of one pound of water by one degree Fahrenheit."
-    - 1 BTU = 1.054 to 1.060 kJ (kilojoules) = 0.2931 W⋅h (watt hours) = 252 to 253 cal (calories) (calories are stupid too).
-
-![Frame gaps](images/1000px-Horsepower_plain.svg.png)
-
-##### Convert units.
-
-- [Metric prefixes](https://en.wikipedia.org/wiki/Metric_prefix) are cool
-- 1000 kWh are a MWh. One billion kWh are a TWh.
-- One thousand megatons (Mt) are a gigaton (Gt). One gigaton is a terragram (Tg).
-
-##### Standards
-
-- [ISO 31-0](https://en.wikipedia.org/wiki/ISO_31-0) is your friend.
-    - Never put a unit into square brackets or parenthesis.
-    - Space between value and unit (even for % and °C)
-    - Sets and ranges are written as follows
-        - 225 nm to 2400 nm
-        - or (225 to 2400) nm.
-        - but not: 225 to 2400 nm
-        - [NIST Guide to the SI, Chapter 7](https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-7-rules-and-style-conventions-expressing-values)
-
-##### Don't forget your units
-
-- The unit of population density is *reciprocal* area (e.g. km<sup>-2</sup>: "per square kilometer")
-
-##### Tonnes
-
-- A *tonne* is a metric tonne.
-
-- Its abrevation is a minuscule letter t.
-
-- [https://en.wikipedia.org/wiki/Tonne#Symbol_and_abbreviations](https://en.wikipedia.org/wiki/Tonne#Symbol_and_abbreviations)
-
-  > The BIPM symbol for the tonne is t, adopted at the same time as the unit in 1879. Its use is also official for the metric ton in the United States, having been adopted by the United States National Institute of Standards and Technology (NIST). It is a symbol, not an abbreviation, and should not be followed by a period. Use of minuscule letter case is significant, and use of other letter combinations can lead to ambiguity. "T, MT, mT, Mt and mt are the SI symbols for the tesla, megatesla, millitesla, megatonne (one teragram), and millitonne (one kilogram) respectively."
-
-#### Legends
-
-- "percentage" vs ratio/share/fraction. Mind the difference between quantity and unit. "The amount of calories in a Bud Light is 100 kCal"
-- If you display shares/ratios, add units (percentage) or display as fraction.
-- Round and truncate values—three significant figures should suffice.
-- Thousand separator:
-    - Use non-breaking spaces instead of commas
-    - Divide/multply by 1 000 as needed to simplify the presentation (e.g., 1 000 m vs 1 km)
-- Title:
-    - Your probably don't need to call the legend a "Legend".
-    - Describe the physical quantity you're displaying.
-
-#### North arrow
-
-When adding map components such as a north arrow, ask yourself if you would expect this to provide additional helpful information for the viewer. A north arrow likely is superfluous in a context (e.g., whole Earth) where you would expect any viewer to know where north on the map is.
-
-#### Colors
-
-- There are so many colors out there. Does everything have to be blue? 😢 
-
-![Blue](images/blue.png)
-
-- Coloring waters in blue is probably a good idea
-
-![Blue](images/buster.png)
-
-##### Diverging vs sequential
-
-When deciding whether to use diverging or sequential color maps, consider [Lisa Charlotte Muth's Datawrapper blog](https://blog.datawrapper.de/diverging-vs-sequential-color-scales/):
-
-1. Use a diverging color scale if there's a meaningful middle point
-2. Use a diverging color scale to emphasize the extremes
-3. Use a diverging color scale to let readers see more differences in the data
-4. Use a *sequential* color scale for a more intuitive reading
-
-###### A good use of Lisa's rule 1
-
-![Blue](images/good_diverging_1.png)
-
-###### A good use of Lisa's rule 2
-
-![Blue](images/good_diverging_2.png)
-
-Other reads on the topic:
-
-- [A quick intro by Cynthia Brewer herself](http://www.personal.psu.edu/cab38/ColorBrewer/ColorBrewer_learnMore.html)
-- [When to Use Sequential and Diverging Palettes (Everyday Analytics blog)](https://everydayanalytics.ca/2017/03/when-to-use-sequential-and-diverging-palettes.html)
-
-#### Stroke Width
-
-Mind the *stroke width* of your features. In areas with very busy boundaries, the actual fill color becomes invisible if the stroke width is too large (for our world map data, examples might be Greece with its islands in the Aegis Sea, the Philippines, The Caribbean, or Tierra del Fuego)
-
-![](images/stroke.png)
-
-#### Scales and scalebar
-
-- A *scalebar* will only be representing the distance at one given latitude  (e.g. the equator)
-- *Representative fractions* (e.g., "1:10 000 000") don't make much sense on a digital artifact (consider zooming, printing, etc.)
-
-![Frame gaps](images/scalebars.png)
-
-![Frame gaps](images/scale.png)
-
-#### Various
-
-- submit on time
-
-#### Space
-
-- Use the space you have wisely
-- Why have the map in a small box? Use the full paper width
-
-#### Great examples
-
-1. ![Blue](images/good_examples/good1.png)
-
-1. ![Blue](images/good_examples/good2.png)
-
-1. ![Blue](images/good_examples/good3.png)
-
-1. ![Blue](images/good_examples/good4.png)
-
-1. ![Blue](images/good_examples/good5.png)
-
-1. ![Blue](images/good_examples/good6.png)

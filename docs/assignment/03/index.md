@@ -1,14 +1,14 @@
 ## Assignment 3 - Site suitability analysis for wind power subsidies
 
-Due **Wed 2022-02-23 23:59** (Note new date!)
+Due **Fri 2023-03-03 23:59** 
 
-> NOTE: This is a complicated assignment! (The next one will be even more so.) Read it through, carefully, all the way to the end, before you start working on it!
-
-> NOTE 2: An error in the [Result](#result) section (specifically, in the description of the *Polygonize* and *Extract by attribute* tools) has been fixed—please re-read it carefully!
+> NOTE: This is a complicated assignment! (The next one will be even more so). 
+> Read it through, carefully, all the way to the end, before you start working on it!
 
 **CONTENTS**
 - TOC
 {:toc}
+
 ### Tasks
 
 1. Create a graphical model that implements a suitability analysis.
@@ -17,7 +17,7 @@ Due **Wed 2022-02-23 23:59** (Note new date!)
 
 ### Grading
 
-This assignment is worth **30 points**—10 points each for your
+This assignment is worth **30 points** — 10 points each for your
 
 - map
 - model
@@ -48,7 +48,7 @@ To calculate the placement density (i.e. how many turbines can be placed in a ce
 
 The annual wind production can be calculated as follows:
 
-- ***E*** = 2.6 s m<sup>-1</sup> ***v***  +  -5 GWh
+- ***E*** = 2.6 GWh s m<sup>-1</sup>  ***v***  - 5 GWh
     - where
         - ***E*** = energy production per turbine in GWh
         - ***v*** = average annual wind speed in m s<sup>-1</sup>
@@ -128,6 +128,9 @@ Figures 1-6 show the specific QGIS tools and data flow necessary at each step to
 #### Wind
 
 ![Figure 1: Computing the Wind Mask.](images/01_wind.png)
+*Figure 1: Computing the Wind Mask.*
+
+
 
 Use the [*Reclassify by table*](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/rasteranalysis.html#reclassify-by-layer) tool to produce a raster layer which has cell values of 1 if the windspeed is at or above our threshold.
 
@@ -140,6 +143,7 @@ Use the [*Reclassify by table*](https://docs.qgis.org/3.16/en/docs/user_manual/p
 #### Roads
 
 ![Figure 2: Computing the Roads Mask.](images/02_roads.png)
+*Figure 2: Computing the Roads Mask.*
 
 Remember to dissolve the buffers!
 
@@ -160,6 +164,7 @@ Use the [Clip Raster by mask layer](https://docs.qgis.org/3.16/en/docs/user_manu
 #### Airports
 
 ![Figure 3: Computing the Airport Mask.](images/03_airports.png)
+*Figure 3: Computing the Airport Mask.*
 
 Use the *Buffer*, *Rasterize*, and *Clip raster by mask layer* tools like you did for the roads.
 
@@ -168,20 +173,34 @@ For the *Airports*, *Urban*, *Fire*, and *Public* layers, the buffers indicate *
 #### Urban
 
 ![Figure 4: Computing the Urban Mask.](images/04_urban.png)
+*Figure 4: Computing the Urban Mask.*
 
 #### Fire
 
 ![Figure 5: Computing the FireMask.](images/05_fire.png)
+*Figure 5: Computing the FireMask.*
 
 #### Public
 
 ![Figure 6: Computing the Public Mask.](images/06_public.png)
+*Figure 6: Computing the Public Mask.*
 
-<!-- Use extract by expression -->
+
+![Figure 7: Extract Public Parcels.](images/extract_public.png)
+*Figure 7: Extract Public Parcels.*
+
+Alternatively, use a [regular expression (regex)](https://en.wikipedia.org/wiki/Regular_expression):
+
+```
+regexp_match(USECODE, '^[678]')
+```
+
+
 
 #### Result
 
-![Figure 7: Computing the Combined Mask.](images/07_merge.png)
+![Figure 8: Computing the Combined Mask.](images/07_merge.png)
+*Figure 8: Computing the Combined Mask.*
 
 Use the GDAL *Raster calculator* tool to sum up the masks and classify suitable areas. (A cell that has the value 1 in **all** of the masks is a suitable area/cell).
 
