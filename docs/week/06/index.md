@@ -23,4 +23,4 @@
   - [Tools for assignment 3](hw3_tools.md)
 
 - **Recordings**
-
+  - [Lecture](https://ucsb.box.com/s/zvyndo16hf76vqrrb049nppoqjs1k56m)
