@@ -12,7 +12,7 @@ the you can probably fix them by:
 1. Open a new *Finder* window.
 1. Click *Go→Go to Folder…*
 1. In the *Go to the folder:* box, type
-    `/Users/`*`username`*`/Library/Application Support/QGIS/QGIS3/`
+    `/Users/*username*/Library/Application Support/QGIS/QGIS3/`
     where *`username`* is your macOS user name.
     - This dance is necessary because the `Library` folder is normally not visible in the *Finder*.
 1. Download [`startup.py`](startup.py)
@@ -20,3 +20,5 @@ the you can probably fix them by:
 
 From now on, your QGIS should be immunized against the "fugitive `proj.db`" problem.
 
+Note: The startup.py contains two lines of python code. It is telling QGIS the location of the proj.db, which should be at `/Applications/QGIS.app/Contents/Resources/proj`. For some of you the location of proj.db might however be at `/Applications/QGIS-LTR.app/Contents/Resources/proj`.
+You can verify by checking if your `/Applications/` folder contains a file called `QGIS.app` or `QGIS-LTR.app`. If the latter, then edit the second line of `startup.py` to reflect this location.
