@@ -27,7 +27,7 @@ awarded according to the [evaluation rubric](rubric.md).
 
 ### Problem
 
-The Energy Division from the Department of Planning & Development of Santa Barbara County seeks your advice on wind energy. They have received a grant to seed wind energy production by subsidizing [Vestas V136-3.45 MW](https://us.vestas.com/en-us/products/4-mw-platform/V136-3-45-MW) turbines for installation within mainland Santa Barbara County. These turbines operate at hub heights of 150 m.
+The Energy Division from the Department of Planning & Development of Santa Barbara County seeks your advice on wind energy. They have received a grant to seed wind energy production by subsidizing [Vestas V136-3.45 MW](https://us.vestas.com/en-us/products/4-mw-platform/V136-3-45-MW) turbines for installation within mainland Santa Barbara County. These turbines operate at hub heights of 150 m. 
 
 Considering the turbine's Capital expenditure (CAPEX), Operating expense (OPEX), lifetime, and feed-in tariff, a V136 will not be economically viable if operated at locations with average annual wind speeds of less than 6 m/s at hub height. 
 

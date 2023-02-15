@@ -16,11 +16,16 @@
     -   M. Wagner *et al*, Design with Nature: Key lessons from McHarg's intrinsic suitability in the wake of Hurricane Sandy. [DOI: 10.1016/j.landurbplan.2016.06.013](https://doi.org/10.1016/j.landurbplan.2016.06.013)
 
 - **Reference**
-  - Bolstad: ch 9: Basic Spatial Analysis
+  - Bolstad: 
+    - 4th Edition: ch 9: Basic Spatial Analysis
+    - 5th Edition: ch 9: Basic Spatial Analysis
+    - 6th Edition: ch 9: Basic Spatial Analysis
+    - 7th Edition: ch 9: Basic Spatial Analysis
     - (This is mostly stuff we've already covered in class.)
 
 - **Lab**
   - [Tools for assignment 3](hw3_tools.md)
 
 - **Recordings**
-
+  - [Lecture](https://ucsb.box.com/s/zvyndo16hf76vqrrb049nppoqjs1k56m)
+  - [Lab1](https://ucsb.box.com/s/8hppmvir8ghfbfgd9su8oc1ija5o6ud3)

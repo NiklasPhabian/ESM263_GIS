@@ -7,7 +7,6 @@
 
 - data
   - [Natural Earth low resolution](naturalearth_lowres.gpkg)
-
 - reference
   - QGIS Training Manual: [6.2. Vector Analysis](https://docs.qgis.org/3.22/en/docs/training_manual/vector_analysis/basic_analysis.html)
 
