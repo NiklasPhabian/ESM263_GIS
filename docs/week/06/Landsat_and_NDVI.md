@@ -2,22 +2,23 @@
 
 ### Landsat imagery
 
-- [Landsat 7 ETM+](https://landsat.gsfc.nasa.gov/the-enhanced-thematic-mapper-plus-etm/) sensor
-- [9 Things About Landsat 9](https://www.youtube.com/watch?v=DGE-N8_LQBo)
-- [Landsat: Celebrating 50 Years](https://www.youtube.com/watch?v=7XKVSTX1vdE)
-- [Landsat 8: Band by Band](https://www.youtube.com/watch?v=A6WzAc1FTeA)  
 
-- 30m resolution.    
+- [Landsat 7 ETM+](https://landsat.gsfc.nasa.gov/the-enhanced-thematic-mapper-plus-etm/) sensor
+- Videos
+    - [9 Things About Landsat 9](https://www.youtube.com/watch?v=DGE-N8_LQBo)
+    - [Landsat: Celebrating 50 Years](https://www.youtube.com/watch?v=7XKVSTX1vdE)
+    - [Landsat 8: Band by Band](https://www.youtube.com/watch?v=A6WzAc1FTeA)
+- 30m resolution.
 - Band values are 8-bit unsigned integers (0..255)
 - spectral bands:
-    
-      | band |    from |      to | note                       |
-      | ---: | ------: | ------: | :------------------------- |
-      |    1 |  450 nm |  515 nm | visible: blue              |
-      |    2 |  525 nm |  605 nm | visible: green             |
-      |    3 |  630 nm |  690 nm | visible: red               |
-      |    4 |  775 nm |  900 nm | near-infrared (NIR)        |
-      |    5 | 1550 nm | 1750 nm | short-wave infrared (SWIR) |
+
+| band |    from |      to | note                       |
+| ---: | ------: | ------: | :------------------------- |
+|    1 |  450 nm |  515 nm | visible: blue              |
+|    2 |  525 nm |  605 nm | visible: green             |
+|    3 |  630 nm |  690 nm | visible: red               |
+|    4 |  775 nm |  900 nm | near-infrared (NIR)        |
+|    5 | 1550 nm | 1750 nm | short-wave infrared (SWIR) |
     
 - True-color symbology:
     - Red = Band 3

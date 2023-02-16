@@ -29,3 +29,5 @@
 - **Recordings**
   - [Lecture](https://ucsb.box.com/s/zvyndo16hf76vqrrb049nppoqjs1k56m)
   - [Lab1](https://ucsb.box.com/s/8hppmvir8ghfbfgd9su8oc1ija5o6ud3)
+  - [Lab2](https://ucsb.box.com/s/7dy4chvv5ccj54l4td35d1g9bz84qf0k)
+    - Class ended and ovetime began at 01:41:00 
