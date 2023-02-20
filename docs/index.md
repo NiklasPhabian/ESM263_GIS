@@ -109,7 +109,7 @@ More about QGIS at:
 |  4   | 2023-01-30 to 2023-02-03   | [Tabular data](week/04/index.md)                            |
 |  5   | 2023-02-06 to 2023-02-10   | [Raster data](week/05/index.md)                             |
 |  6   | 2023-02-13 to 2023-02-17   | [GIS models](week/06/index.md)                              |
-|  7   | 2023-02-20 to 2023-02-24   | Terrain and watershed analysis             |
+|  7   | 2023-02-20 to 2023-02-24   | [Terrain and watershed analysis](week/07/index.md)          |
 |  8   | 2023-02-27 to 2023-03-03   | GIS data: sources and capture              |
 |  9   | 2023-03-06 to 2023-03-10   | Programming GIS                            |
 |  10  | 2023-03-13 to 2023-03-17   | QGIS on the web                            |
