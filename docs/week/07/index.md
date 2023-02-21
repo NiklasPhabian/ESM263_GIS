@@ -27,6 +27,7 @@
     -   any leftover time: work on assignment 3
 -   **Recordings**
     - [Lecture](https://ucsb.box.com/s/u3tqryjgs4r9feuj3qk87okj9j8ku2x4)
+    - [lab1](https://ucsb.box.com/s/m6wc189lux9jcgdyyqfkzei3q2607auu)
     
     
 
