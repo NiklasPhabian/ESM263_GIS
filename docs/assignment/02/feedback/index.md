@@ -12,8 +12,8 @@ output:
 You all improved from the first assignment! It was really great to see the work you all put into this assignment and how you are progressing with your GIS skills. It makes me excited to what the next two assignments are going to look like :). Here are a few feedback items from Homework 1 that many of you fixed/improved on in Homework 2:
 
 * Following ISO standards!
-  * Using "to" to indicate ranges instead of a dash ("-")
-    * 1m to 2m (good!) instead of 1m - 2m (not as good)
+  * Using "to" to indicate ranges instead of a dash ("-"). Make sure to put a space between the number and the unit shown in the good example.
+    * 1 m to 2 m (good!) instead of 1m - 2m (not as good)
 * Including scale bars and north arrows. These elements should be in nearly every map you make. The scale bar is particularly important and can be easy to mess up. Make sure you check your units.
 * Keeping the legend in our out.
   * In Homework 1 many of you overlapped the legend in and out of the map frame. This can give your map a disjointed and cluttered appearance. You want to keep your legend all the way in or all the way out of your map frame.
