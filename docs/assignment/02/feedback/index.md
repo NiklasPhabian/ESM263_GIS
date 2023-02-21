@@ -1,210 +1,140 @@
-## Assignment 2 - Sea level rise in Santa Barbara - TA feedback
-**CONTENTS**
-- TOC
-{:toc}
-### You really listened to us
+---
+title: "Homework 2 Feedback"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
 
-- [ISO 31-0](https://en.wikipedia.org/wiki/ISO_31-0)
-- 1 m to 2 m
-    - Remember: This is not an opinion. This is ISO. If anyone ever gives you grief for it, point to the standard.
 
-- ISO 8601
-- A lot of really good results ... you listened!
+## Improvements from Homework 1
 
-### Results
+You all improved from the first assignment! It was really great to see the work you all put into this assignment and how you are progressing with your GIS skills. It makes me excited to what the next two assignments are going to look like :). Here are a few feedback items from Homework 1 that many of you fixed/improved on in Homework 2:
 
-- Almost everyone got values correctly.
-- If you didn't and want to know why, reach out.
-- Always sanity check!
-    - Are we in the right order of magnitude?
-    - Are *trillions* of USD lost in SB realistic?
-    - How large is my calculated area compared to SB county / California / USA / the world?
-- Correct values:
+* Following ISO standards!
+  * Using "to" to indicate ranges instead of a dash ("-")
+    * 1m to 2m (good!) instead of 1m - 2m (not as good)
+* Including scale bars and north arrows. These elements should be in nearly every map you make. The scale bar is particularly important and can be easy to mess up. Make sure you check your units.
+* Keeping the legend in our out.
+  * In Homework 1 many of you overlapped the legend in and out of the map frame. This can give your map a disjointed and cluttered appearance. You want to keep your legend all the way in or all the way out of your map frame.
+* Your use of colors improved vastly. Homework 2 was a tough color/classification problem! Many of you gave this some serious thought and chose excellent color schemes with great contrast.
 
-    |Sea level Rise|Number of parcels lost|Area lost|Property Value Lost|
-    |--:|--:|--:|--:|
-    |0.0 m|8|59 ha|\$0.24 million|
-    |0.5 m|25|67 ha|\$10.81 million|
-    |1.0 m|43|78 ha|\$21.39 million|
-    |1.5 m|70|87 ha|\$40.73 million|
-    |2.0 m|104|94 ha|\$61.69 million|
-    |2.5 m|177|117 ha|\$117.94 million|
-    |3.0 m|397|154 ha|\$372.58 million|
-    |3.5 m|841|225 ha|\$808.64 million|
-    |4.0 m|1409|290 ha|\$1328.21 million|
 
-- [Note on table formatting](table_formatting/index.md)
+## Results
 
-### Issues
+* Almost all of the values were correct, that means everyone followed the analytical steps in the instructions well! Whoooo!!
+  * Please reach out if you have any questions about this.
+  
+* Make sure that your values make sense in terms of magnitude.
+  * Is trillions of dollars realistic for damage? What about hundred? Would these units indicate a problem with analysis or unit conversions? Yup....
+  * The same can be said about area! Hundred of miles versus hundreds of inches
+  
+Here is what a correct data table looks like:
 
-#### Export as CSV
 
-- You can select the fields you want to export
+|Sea level Rise|Number of parcels lost|Area lost|Property Value Lost|
+|--:|--:|--:|--:|
+|0.0 m|8|59 ha|\$0.24 million|
+|0.5 m|25|67 ha|\$10.81 million|
+|1.0 m|43|78 ha|\$21.39 million|
+|1.5 m|70|87 ha|\$40.73 million|
+|2.0 m|104|94 ha|\$61.69 million|
+|2.5 m|177|117 ha|\$117.94 million|
+|3.0 m|397|154 ha|\$372.58 million|
+|3.5 m|841|225 ha|\$808.64 million|
+|4.0 m|1409|290 ha|\$1328.21 million|
+    
+    
+    
+## Areas for improvement
 
-#### Sanity Check
+### Estimate/Calculation Precision
 
-##### Area
+#### Spurious Precision
 
-Remind yourself how big a hectare is: 100 m x 100 m; e.g., same order-of-magnitude as a football field. Now how big do you think downtown SB is? Definitely more than one of those football fields. Definitely less than 1 000 000 of them.
+Spurious precision is defined as being more precise, or having more decimal places, than necessary. The inclusion of extra precision indicates that measurment is very precise when in fact it is not. Take a look at this [link](https://en.wikipedia.org/wiki/False_precision) if you'd like more information
 
-##### Money
+![](images/spurious_precision.png)
 
-Compare your values to California's, or the US's, GDP.
+#### Too Rounded
 
-#### Locator map
+In juxtaposition to spurious precision, you can have situations where you are not precise enough. When calculating the potential monetary damage for the different SLR scenarios, many of you rounded the 0 meter scenario down to zero. This is misleading because that value is around $240,000 in damage. That might not be a huge amount for the city of Santa Barabara but I'd hate to be stuck with that kind of bill.........
 
-- What is a locator map?
-    - "A locator map, sometimes referred to simply as a locator, is typically a simple map used in cartography to show the location of a particular geographic area within its larger and presumably more familiar context." [[https://en.wikipedia.org/wiki/Locator_map](https://en.wikipedia.org/wiki/Locator_map)]
-- "Include a locator map if the map frame's extent is not obvious to its intended audience."
-    - ... Who is your audience if you chose not to include one?
-- Still confused? Here is a nice tutorial on [qgistutorials](https://www.qgistutorials.com/en/docs/making_a_map.html).
+![](images/too_rounded.png)
 
-#### How to write monetary values
 
-- millions(\$), Million USD, M\$, Millions USD, \$ millions
-- There is no ISO standard.
-- But some kinda sorta consensus:
-    - [first Google hit](https://www.avidcareerist.com/2014/01/06/how-to-abbreviate-million-on-your-resume/)
-    - [some opinions on StackExchange](https://english.stackexchange.com/questions/197642/how-to-express-1m-in-a-formal-document)
-- As an engineer, you might get away with saying "1 kUSD", "1 MUSD" or "1e9 USD". Maybe even "\$1M" etc.
-- But what we more commonly see in e.g. Forbes magazine would be "\$1 million".
-- Don't use "m" as that is the metric prefix for "milli"!
-- If you cannot find a standard, seeing how someone who you respect does it is often a good idea.
+### Units (scalebars)
 
-#### Million USD
+When you are creating your scale bars, make sure you are using appropriate units that are succinct and easy to interpret. For example, some people used meters as the unit for the scale bar and showed thousands of meters. This is not technically wrong but if the units are that high it makes sense to conver to kilometers for ease of interpretation. I think it looks better too!
 
-We asked you to present in million USD. We did not do this just for fun. Look at how hard it is to read a value like this: \$1328211519. We have to put our dirty fingers onto the computer screen to count the digits to see if we are talking millions, or tens of millions. Orders of magnitude should always clearly be readable.
+Meters Example
 
-#### Unit placement
+![](images/meters_example.png)
 
-Put the units behind the values, not into the column headings or the legend title.
+Kilometers Example
 
-#### Right justify numbers
+![](images/km_example.png)
 
-Which column allows you to mentally sort the values the fastest?
+### Citations
 
-|FID|Left Align|Center Align|Right Align<br>(varying precision)|Right Align<br>(constant precision)|
-|:--|:--|:-:|--:|--:|
-|**A**|10.534 km|10.534 km|10.534 km|10.53 km|
-|**B**|1.3 km|1.3 km|1.3 km|1.30 km|
-|**C**|256.1 km|256.1 km|256.4 km|256.40 km|
-|**D**|0.1443 km|0.1443 km|0.1443 km|0.14 km|
-|**E**|1431 km|1431 km|1431 km|1431.00 km|
-|**F**|13.3212 km|13.3212 km|13.3212 km|13.32 km|
+There has been a pretty broad spectrum of citations used for data on your maps so far in class. In some cases there is not enough info in the citations and in others there is too much. You want to find the sweet spot but it can be difficult sometimes. Here are some tips:
 
-#### Colors
+* Most importantly, you should provide enough information for the reader to find the data
+* If you are having trouble fitting in your citations on your map, then you should consider paring it down
+* It's great if you can include links but beware.....
+  * Don't use broken links - make sure the link works
+  * Consider using a url shortener if the link is super long or use a hyperlink embedded in your text
+* It's hard to find a standard for how to cite data in your map but this [link](https://libguides.wustl.edu/c.php?g=46935&p=301626) is a good start
 
-##### California Island
 
-If you draw a blue background around your California locator map, it might look like California is an island.
+### Colors and Classes/Categories
 
-![](images/cali_island.png)
+Lots of improvement from the first assignment but there were still a few problems I wanted to highlight here. When choosing a color and classification, ask yourself what you want each color on the ramp to represent and if your chosen scheme works for toward your goal. This assignment had an interesting problem where you had many classes and irregular shaped polygons. Many of the classes were not located near each other, so similar colors/classes were difficult to distinguish from each other. One way to work around this was to collapse the sea level rise scenarios into whole meters. Another option people employed was to use monetary damage as a metric and classify the polygons based on that to show greater and more meaningful contrast.
 
-##### Color ramp
+#### A note on color scales
 
-Make sure the different scenarios are clearly visible by tweaking the color ramp.
+A sequential color palette is ideal for representing low to high values. The brightness or hue of the color is meant to correlate with how high or low the value is. Generally these color ramps are the same color but with different brightness, hue, and/or shade.
 
-#### Texts
 
-- Some of you did great jobs; you critically thought about what's going on and expressed it effectively.
+A divergent color palette is meant to give more emphasis to the middle range values, meaning the middle values are important and worth standing out as different from the values at the extreme ends of your classification scheme. The middle can act as an inflection point. I've talked to several people about this where the divergent color scale gives some sort of meaning. It can mean good or bad based on your classification or the colors can represent a move from one category to another.
 
-- If you don't feel like doing that, cut back on the writing. Better to say less than to be verbose and imprecise.
 
-- Don't confuse *what* you are displaying with *in what units* you are expressing it. There is almost never a need to describe what units you are using in your descriptive text. That goes for reports as well!
+#### Poor Contrast
 
-- No need to use text like this:
+The examples below illustrate how colors are difficult to distinguish in the middle of the color ramp. The second example acknowledges the difficulty in seeing the classes and includes a callout. A nice idea but this would be better addressed by changing colors or classification scheme.
 
-  "Sea-level inundation scenarios represent increasing sea levels for 1m (yellow) to 10m (dark blue)"
+![](images/poor_contrast.png)
 
-  to describe what should be obvious from the legend.
+![](images/poor_contrast_callout.png)
 
-#### Values and units
+#### Nice Contrast
 
-- You can use standard abbreviations (e.g. m instead of meter); they will be understood in the context.
-- Remember to use non-breaking space between a value and its unit. Read ISO 31-0!
-- Watch out with those decimal places—round them, either to integers, or at least to 1 or 2.
-  - If there are 3 decimal places, I might for a second ask myself if the "." is a thousand separator. Round to one or two instead to make it less ambiguous.
+As mentioned above, you can alter the classification scheme or color ramp to better show contrast between classes.
 
-- Use appropriate units for large quantities (e.g., km instead of m). Use scientific notation if the values are still too large to read easily.
+![](images/good_contrast_classes.png)
 
-#### Number Ranges
+![](images/good_contrast_color.png)
 
-[Section 7.7 of NIST Guide to the SI, Chapter 7: Rules and Style Conventions for Expressing Values of Quantities](https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-7-rules-and-style-conventions-expressing-values):
+### Usage of Data
 
-The value of a quantity is expressed as the product of a number and a unit. To avoid possible confusion, the Guide takes the position that:
-- values of quantities must be written so that it is completely clear to which unit symbols the numerical values of the quantities belong.
-- the word "to" to be used to indicate a range of values for a quantity instead of a range dash (that is, a long hyphen) because the dash could be misinterpreted as a minus sign.
+The last thing I want to cover is using the data you are given while making your map. The most important layer is your final result layer of sea level rise extent. Everyone included this layer but it could have been improved by defining the study area. This draws the readers eyes to the important part of the map and it also allows the cartographer to create a more focused map. There was also parcel data available to show the affected plots under each scenario. You don't want to add all the data you used in your analysis on your map because that is overkill but adding some of the data provides nice context. It's a tough balance to strike but we will all get there :).
 
-|good||bad|
-|:--|:--|:--|
-|51 mm × 51 mm × 25 mm|but not:|51 × 51 × 25 mm|
-|225 nm to 2400 nm or (225 to 2400) nm|but not:|225 to 2400 nm|
-|0 ºC to 100 ºC or (0 to 100) ºC|but not:|0 ºC – 100 ºC|
-|0 V to 5 V or (0 to 5) V|but not:|0 – 5 V|
-|(8.2, 9.0, 9.5, 9.8, 10.0) GHz|but not:|8.2, 9.0, 9.5, 9.8, 10.0 GHz|
-|63.2 m ± 0.1 m or (63.2 ± 0.1) m|but not:|63.2 ± 0.1 m or 63.2 m ± 0.1|
-|129 s – 3 s = 126 s or (129 – 3) s = 126 s|but not:|129 – 3 s = 126 s|
 
-#### Classes/ranges; break points
+## Excellent Examples :)
 
-- There are 10 scenarios;
-    - Either you name the scenarios by the sea level rise (1 m through 10 m)
-    - Or with ranges from 0 m to 1 m through 9 m to 10 m.
-
-    |Sea level Rise|Areas flooded at elevation of|
-    |--:|--:|
-    |1 m|0 m to 1 m|
-    |2 m|1 m to 2 m|
-    |3 m|2 m to 3 m|
-    |4 m|3 m to 4 m|
-    |5 m|4 m to 5 m|
-    |6 m|5 m to 6 m|
-    |7 m|6 m to 7 m|
-    |8 m|7 m to 8 m|
-    |9 m|8 m to 9 m|
-    |10 m|9 m to 10 m|
-
-### Some nice examples
 
 ![](images/good1.png)
 
----
-
 ![](images/good2.png)
-
----
 
 ![](images/good3.png)
 
----
-
 ![](images/good4.png)
-
----
 
 ![](images/good5.png)
 
----
-
 ![](images/good6.png)
 
----
 
-![](images/good7.png)
 
----
-
-![](images/good8.png)
-
----
-
-![](images/good9.png)
-
----
-
-![](images/good10.png)
-
----
-
-![](images/good11.png)
 
