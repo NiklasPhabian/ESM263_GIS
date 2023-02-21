@@ -26,6 +26,7 @@
         - [17.16. Hydrological analysis](https://docs.qgis.org/3.22/en/docs/training_manual/processing/hydro.html)
     -   any leftover time: work on assignment 3
 -   **Recordings**
+    - [Lecture](https://ucsb.box.com/s/u3tqryjgs4r9feuj3qk87okj9j8ku2x4)
     
     
 
