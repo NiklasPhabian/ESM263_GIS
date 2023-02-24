@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 'Assignment 4 Feedback
+title: Assignment 4 Feedback
 ---
  
 **CONTENTS**
