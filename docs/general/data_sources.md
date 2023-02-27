@@ -5,8 +5,7 @@
 - [California State Geoportal](https://gis.data.ca.gov/)
 
 - [Data Basin](https://databasin.org/)
-  - [Santa Barbara County Conservation Blueprint
-    Atlas](https://sbcblueprint.databasin.org/)
+  - [Santa Barbara County Conservation Blueprint Atlas](https://sbcblueprint.databasin.org/)
   
 - [GeoPlatform.gov](https://www.geoplatform.gov/)
 
