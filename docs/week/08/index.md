@@ -6,9 +6,11 @@
   - [Historic topo maps](historic_maps/index.md)
   - [Misalignment Issue](Anchorage_A-8_NW_L61149B7.tif)
 
-- **Reading**  
-    - ch 6: Aerial and Satellite Images
-    - ch 7: Digital Data
+- **Reading**
+    - Bolstad
+      - ch 6: Aerial and Satellite Images
+      - ch 7: Digital Data
+      
     - GPS
       - [GPS](https://www.gps.gov/)
       - Bolstad ch 5: Global Navigation Satellite Systems and Coordinate Surveying (optional)
