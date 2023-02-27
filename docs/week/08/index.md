@@ -1,7 +1,7 @@
 ## Week 8 - GIS data: sources and capture
 
 - **Lecture**
-  - slides: [GIS Data: Sources and Capture](ESM-263-2022-08-Data_Sources_and_Capture.pdf)
+  - slides: [GIS Data: Sources and Capture](ESM263_Week8.pdf)
   - [GIS data sources - examples](../../general/data_sources.md)
   - [Historic topo maps](historic_maps/index.md)
   - [Misalignment Issue](Anchorage_A-8_NW_L61149B7.tif)
