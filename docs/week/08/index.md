@@ -11,8 +11,7 @@
       - ch 6: Aerial and Satellite Images
       - ch 7: Digital Data
       
-    - GPS
-      - [GPS](https://www.gps.gov/)
+    - [GPS](https://www.gps.gov/)
       - Bolstad ch 5: Global Navigation Satellite Systems and Coordinate Surveying (optional)
       - [How Does GPS Work?](https://www.youtube.com/watch?v=FU_pY2sTwTA)
       - [WAAS](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/waas)
@@ -30,8 +29,8 @@
       - [USGS US Topo: Maps for America](https://www.usgs.gov/programs/national-geospatial-program/us-topo-maps-america)
       - [Heads-up digitising](https://docs.qgis.org/3.22/en/docs/gentle_gis_introduction/data_capture.html#heads-up-digitising)
       - [digitizing_table](https://upload.wikimedia.org/wikipedia/commons/e/e6/1989._Tommy_Gregg_with_an_early_digitizing_table_behind_him._Tommy_led_the_first_efforts_to_automate_the_Region_6_aerial_detection_survey_GIS_data._Portland,_OR._(35432849605).jpg)
-  - **Lab**
-  - [Assignment 4](../../assignment/04/index.md) overview
+      
+- **Lab**
   - Zonal statistics
     - [data](lab8.zip)
     - exercise 1: wind per county
