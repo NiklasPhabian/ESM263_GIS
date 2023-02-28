@@ -10,9 +10,9 @@
   - [Processing R Provider](https://north-road.github.io/qgis-processing-r/): invoke R scripts as QGIS processing algorithms
     - QGIS Training Manual: [17.33. Use R scripts in Processing](https://docs.qgis.org/3.22/en/docs/training_manual/processing/r_intro.html)
     - QGIS User Guide: [22.10.5. R scripts](https://docs.qgis.org/3.22/en/docs/user_manual/processing/3rdParty.html#r-scripts)
+    
 - **Lab**
+  - HW 3 in ArcGIS
   - work day for assignment 4
+  
 - **Recordings**
-  - [2022-02-28 lecture](https://ucsb.box.com/s/pqvdqk5erm8kb8znhlpk6d96v5e745vj)
-  - [2022-03-01 lab](https://ucsb.box.com/s/6es4n5gd0x86xlokfog0bh99u2bs97ap)
-  - [2022-03-02 lab](https://ucsb.box.com/s/pwes6m81vpgpxy6kvwfnh1m1txulz7cz)
