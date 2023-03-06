@@ -1,17 +1,17 @@
 ## Assignment 4: Multicriteria analysis for conservation priorities
 
-Due **Wed 2022-03-16 23:59**
+Due **Fri 2023-03-24 23:59**
 
-> **NOTE: We weren't kidding. This is a REALLY complicated assignment! Read it through, CAREFULLY, all the way to the end, before you start working on it!**
+> **NOTE: This is a REALLY complicated assignment! Read it through, CAREFULLY, all the way to the end, before you start working on it!**
 
 We've added some [Assignment 4 notes](HW4_notes.md). This document might grow over the course of the next 3 weeks.
 
-> **UPDATE 2022-03-09:** An obsolete reference to *Zonal Statistics by Table* has been deleted from [Task 1: Implement MCA](#task-1-implement-mca). (Actually, it was never there… you just imagined it…)
 
 **CONTENTS**
 
 - TOC
 {:toc}
+
 ### Tasks
 
 1. Implement a multicriteria analysis (MCA), and produce a model and results data.
@@ -20,7 +20,7 @@ We've added some [Assignment 4 notes](HW4_notes.md). This document might grow ov
 
 ### Grading
 
-This assignment is worth **40 points**—10 points each for your map and data, and 20 points for your model.
+This assignment is worth **40 points** - 10 points each for your map and data, and 20 points for your model.
 
 ### Problem
 
@@ -41,8 +41,8 @@ They have all been projected into "NAD83 / California Albers" (EPSG:3310). The v
 | `parcels`            | SBCGIS, 2009                                                 | Santa Barbara County assessor's parcels                      |
 | `Observation_Points` | (ESM 263)                                                    | we made these up                                             |
 | `roi`                | (ESM 263)                                                    | dissolved `watersheds`                                       |
-| `streams`            | SBCGIS, 2002                                                 | southern Santa Barbara County streams                        |
-| `watersheds`         | [Calwater 2.2.1](https://www.calfish.org/programsdata/referencelayershydrography/californiainteragencywatershedmapof1999.aspx) | southern Santa Barbara County watersheds                     |
+| `streams`            | SBCGIS, 2002                                                 | Southern Santa Barbara County streams                        |
+| `watersheds`         | [Calwater 2.2.1](https://www.calfish.org/programsdata/referencelayershydrography/californiainteragencywatershedmapof1999.aspx) | Southern Santa Barbara County watersheds                     |
 
 ### Assumptions
 
@@ -84,7 +84,7 @@ Your task is to develop an MCA model that will implement each of these steps (Fi
 
 ![Figure 1: A conceptual model for the complete analysis](images/flow.png)
 
-**Figure 1**: A **conceptual** model for the complete analysis. Your task is to replace each of these notional tools with the actual QGIS geoprocessing workflow you develop for that step.
+**Figure 1**: A conceptual model for the complete analysis. Your task is to replace each of these notional tools with the actual QGIS geoprocessing workflow you develop for that step.
 
 The output of your model will be a `Scores` table that has a score for each watershed.
 

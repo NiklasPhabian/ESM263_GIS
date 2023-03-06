@@ -42,7 +42,7 @@
       - Counties: [Tigerline](https://catalog.data.gov/dataset/tiger-line-shapefile-2019-state-california-current-county-subdivision-state-based)
     - exercise 1: wind per county
     - exercise 2: land cost per watershed
-    - exercise 3: Niklas likes cold rain and snow where the wind don't blow so strange ...    
+    - exercise 3: Niklas likes cold rain and snow where the wind don't blow so strange ... 
   - HW 3 work time
     - [Fix `Cannot find proj.db`](../../general/macOS_proj/index.md)
     - Aligning Rasters
