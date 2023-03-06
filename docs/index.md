@@ -108,7 +108,7 @@ More about QGIS at:
 |  6   | 2023-02-13 to 2023-02-17   | [GIS models](week/06/index.md)                              |
 |  7   | 2023-02-20 to 2023-02-24   | [Terrain and watershed analysis](week/07/index.md)          |
 |  8   | 2023-02-27 to 2023-03-03   | [GIS data: sources and capture](week/08/index.md)           |
-|  9   | 2023-03-06 to 2023-03-10   | Programming GIS                            |
+|  9   | 2023-03-06 to 2023-03-10   | [Programming GIS](week/09/index.md)                         |
 |  10  | 2023-03-13 to 2023-03-17   | QGIS on the web                            |
 
 # Assignments
