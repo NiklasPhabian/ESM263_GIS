@@ -49,3 +49,6 @@
     - Invert Raster
   
 - **Recordings**
+    - [Lecture](https://ucsb.box.com/s/q222ibaqs0dyje3n33ja8o37x5ik8e2k)
+    - [Lab1](https://ucsb.box.com/s/u29u368xjs3f49tw1lu5n9u4bl5bxv6l)
+    - [Lab2](https://ucsb.box.com/s/lshffj1s0oywxe1qbzz7neo88nrm80rv)
