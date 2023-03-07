@@ -1,4 +1,4 @@
-## MODIS tilegrid
+## MODIS tilegrid for VIIRS
 
 ![](MODIS_sinusoidal_grid.gif)
 
