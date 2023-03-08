@@ -121,4 +121,4 @@ More about QGIS at:
 | Fri 2023-01-20  | [Cartography](assignment/01/index.md)       | [TA](assignment/01/feedback/index.md) |
 | Fri 2023-02-10  | [Sea level rise](assignment/02/index.md)    | [TA](assignment/02/feedback/index.md) |
 | Fri 2023-03-03  | [Site suitability for wind power](assignment/03/index.md) |                         |
-| Fri 2023-03-24  | [Multicriteria analysis for conservation](assignment/03/index.md)     |                                       |
+| Fri 2023-03-24  | [Multicriteria analysis for conservation](assignment/04/index.md)     |                                       |
