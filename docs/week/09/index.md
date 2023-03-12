@@ -23,4 +23,6 @@
   - Work day for assignment 4
   
 - **Recordings**
-  - [lecture](https://ucsb.box.com/s/6dfiqat6njlri2ge7wqmwiwwt6tok114)
+  - [lecture](https://ucsb.box.com/s/0kra7ixwgqxnjrqyeycnp5mh3rgom5pp)  
+  - [Lab1](https://ucsb.box.com/s/mdmqq1i793ppzw9rga3vp2lbhzt2nu7y)
+  - [Lab2](https://ucsb.box.com/s/54cz2aiypswi00tr2a0zqx9zz9910p7z)
