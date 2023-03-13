@@ -1,3 +1,4 @@
 *.directory 
 Gemfile*
 *.ipynb_checkpoints*
+.Rproj.user
