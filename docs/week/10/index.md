@@ -4,6 +4,7 @@
     - [HW3 in R](HW3_R.zip)
     - [Simple Features for R](https://r-spatial.github.io/sf/index.html)
     - [Tidyverse Style Guide](https://style.tidyverse.org/)
+    - [Geocomputation with R](https://r.geocompx.org/index.html)
     
 -   **Lab**
     - Work Day for assignment 4
