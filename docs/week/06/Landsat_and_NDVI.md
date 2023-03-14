@@ -1,8 +1,6 @@
 ## Landsat imagery and NDVI
 
-### Landsat imagery
-
-
+### Landsat 7 imagery
 - [Landsat 7 ETM+](https://landsat.gsfc.nasa.gov/the-enhanced-thematic-mapper-plus-etm/) sensor
 - Videos
     - [9 Things About Landsat 9](https://www.youtube.com/watch?v=DGE-N8_LQBo)
@@ -29,6 +27,29 @@
     - Red = Band 4
     - Green = Band 3
     - Blue = Band 2
+
+### Landsat 8 imagery
+
+Landsat 8/9 has an additional ultraviolet band; therefore blue is band 2, green is band 3, red is band 4, and NIR is band 5.
+
+| band |    from |      to | note                       |
+| ---: | ------: | ------: | :------------------------- |
+|    1 |  430 nm |  450 nm | visible: Coastal aerosol   |
+|    2 |  450 nm |  515 nm | visible: blue              |
+|    3 |  525 nm |  605 nm | visible: green             |
+|    4 |  630 nm |  690 nm | visible: red               |
+|    5 |  775 nm |  900 nm | near-infrared (NIR)        |
+|    6 | 1550 nm | 1750 nm | short-wave infrared (SWIR) |
+
+- True-color symbology:
+    - Red = Band 4
+    - Green = Band 3
+    - Blue = Band 2
+
+- False-color symbology: What shows up as red now?
+    - Red = Band 5
+    - Green = Band 4
+    - Blue = Band 3
 
 ### NDVI (normalized difference vegetation index)
 
