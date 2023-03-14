@@ -15,9 +15,9 @@
             - In 2018, we had the honor of hosting Edzer Pebesma at Bren. He gave an incredible presentation, which you can find [here](https://drive.google.com/file/d/1jFzjvTRXQjYaPnduniqsy_eZd6urG-pA/view?usp=sharing).
         - [Applied Spatial Data Analysis with R](https://asdar-book.org/)
     
-    
 -   **Lab**
     - Work Day for assignment 4
     
 -   **Recordings**
     - [lecture](https://ucsb.box.com/s/gxyl77lshdkja4jcpgp03jtqjvagduak)
+    - [lab1](https://ucsb.box.com/s/68hc6o5tnjkf71n07l3tquhudr1myo00)
