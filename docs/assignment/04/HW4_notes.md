@@ -5,6 +5,10 @@
 - TOC
 {:toc}
 
+### Null values for nontaxcode
+
+When extracting the nonpublic parcels, remember that no value ever equals `NULL`, not even `NULL` itself. Therefore, you cannot do `nontaxcode = null`, but have to do `nontaxcode IS NULL`
+
 ### Creating a mask 
 
 When using the Reclassify tool to create a **mask**, a nice shortcut is to just specify reclassifications for the input values you want to be 1, and force **all** other input values to map to *no data*. You can do that by opening the advanced parameters and set *Use no data when no range matches value*
