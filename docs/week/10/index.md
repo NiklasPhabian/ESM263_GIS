@@ -10,3 +10,4 @@
     - Work Day for assignment 4
     
 -   **Recordings**
+    - [lecture](https://ucsb.box.com/s/gxyl77lshdkja4jcpgp03jtqjvagduak)
