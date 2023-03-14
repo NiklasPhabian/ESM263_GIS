@@ -37,7 +37,8 @@ They have all been projected into "NAD83 / California Albers" (EPSG:3310). The v
 | layer                | source                                                       | notes                                                        |
 | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `dem100.tif`         | [USGS, 2009](http://nationalmap.gov/elevation.html)          | 1 arc second (30 m) National Elevation Dataset, resampled to 100 m |
-| `landsat71.tif`      | [USGS, 2005](https://lta.cr.usgs.gov/LETMP)                  | Landsat ETM+, bands 1–5                                      |
+| ~~`landsat71.tif`~~      | ~~[USGS, 2005](https://lta.cr.usgs.gov/LETMP)~~                  | ~~Landsat ETM+, bands 1–5~~                                     |
+| `landsat91.tif`      | [USGS, 2023](https://lta.cr.usgs.gov/LETMP)                  | Landsat 9 OLI, bands 1–11                                     |
 | `parcels`            | SBCGIS, 2009                                                 | Santa Barbara County assessor's parcels                      |
 | `Observation_Points` | (ESM 263)                                                    | we made these up                                             |
 | `roi`                | (ESM 263)                                                    | dissolved `watersheds`                                       |
@@ -52,7 +53,7 @@ They have all been projected into "NAD83 / California Albers" (EPSG:3310). The v
 
 -   **Developable land** is anywhere with a slope of less than 20 percent.
 
--   **Land cost** is the parcel price per square meter (USD / m²), calculated as `Parcels.NET_AV` (in USD) divided by `Parcels.Shape_Area` (in m²).
+-   **Land cost** is the parcel price per square meter (USD / m²), calculated as `Parcels.NET_AV` (in USD) divided by ~~`Parcels.Shape_Area`~~ `Parcels.$area` (in m²).
 
 -   **Public parcels** (parcels with a non-null `Parcels.NONTAXCODE`) should be ignored.
 
@@ -153,6 +154,18 @@ END
 ```
 
 Note that you need to consider the order ... expensive is bad.
+
+###### Regarding nulls in developable scores
+When creating the developable score, remember that watersheds with a cost of `null` would pass the `ELSE` criterion. Thefore, both expensive watersheds and watersheds with no purchasable land would get the same score. Maybe this is what you want. Otherwise, you may want to restate your formula as:
+
+```
+CASE
+    WHEN "_sum" < q1("cost_sum") THEN 4
+    WHEN "_sum" < median("cost_sum") THEN 3
+    WHEN "_sum" < q3("cost_sum") THEN 2    
+    WHEN "_sum" > q3("cost_sum") THEN 1
+END
+```
 
 <!-- We skip the interface building. Scores will be hard coded because of https://gis.stackexchange.com/questions/350142/connecting-number-parameter-to-field-calculator-in-qgis-modeler -->
 
