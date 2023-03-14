@@ -3,9 +3,17 @@
 -   **Lecture**
     - [HW3 in R](HW3_R.zip)
         - [RMD](ESM263_hw3_Linus_Blomqvist.md)
-    - [Simple Features for R](https://r-spatial.github.io/sf/index.html)
-    - [Tidyverse Style Guide](https://style.tidyverse.org/)
-    - [Geocomputation with R](https://r.geocompx.org/index.html)
+    - R Ressources
+        - [Tidyverse](https://www.tidyverse.org/)
+        - [Tidyverse Style Guide](https://style.tidyverse.org/)        
+        - [aRrgh: a newcomer’s (angry) guide to R](http://arrgh.tim-smith.us/)
+        - [R for Data Science](https://r4ds.had.co.nz/)
+        - [The R Inferno](https://www.burns-stat.com/documents/books/the-r-inferno/)
+    - Spatial R Ressources
+        - [Geocomputation with R](https://r.geocompx.org/index.html)
+        - [Simple Features for R](https://r-spatial.github.io/sf/index.html)
+            - In 2018, we had the honor of hosting Edzer Pebesma at Bren. He gave an incredible presentation, which you can find [here](https://drive.google.com/file/d/1jFzjvTRXQjYaPnduniqsy_eZd6urG-pA/view?usp=sharing).
+        - [Applied Spatial Data Analysis with R](https://asdar-book.org/)
     
     
 -   **Lab**
