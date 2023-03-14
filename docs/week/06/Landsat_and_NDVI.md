@@ -33,8 +33,7 @@
     - Green = Band 3
     - Blue = Band 2
 
-### Landsat 8 imagery
-
+### Landsat 8/9 imagery
 
 Landsat 8/9 has an additional ultraviolet band; therefore blue is band 2, green is band 3, red is band 4, and NIR is band 5.
 
